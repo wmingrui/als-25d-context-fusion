@@ -1,0 +1,30 @@
+{
+  "method": "random_feature",
+  "seed": 44,
+  "batch": 16,
+  "severity": "medium",
+  "workers": 2,
+  "epochs": 100,
+  "benchmark": 0,
+  "resume": false,
+  "eval_only": false,
+  "protocol_sha256": "a8f50490d8935d5713d1ed4a25cbdb3d8728f34810d2e217aa09a5037151a566",
+  "normalization_sha256": "32c26c8cb8de253d83974da208f34d6a90049e8a53f20b60d8cbc3d1a8d2002d",
+  "class_names": [
+    "low_vegetation",
+    "impervious_surface",
+    "vehicle",
+    "urban_furniture",
+    "roof",
+    "facade",
+    "shrub",
+    "tree",
+    "soil_gravel",
+    "vertical_surface",
+    "chimney"
+  ],
+  "precision": "BF16 autocast training; FP32 validation",
+  "data_protocol": "50m nonoverlapping blocks, 8192 sampled records; 11 valid classes including class0 low vegetation; not full-scene benchmark",
+  "source_sha256": "4ccac3e7a25ef2bae115f26a6dc7f08d4f813d1231427213ac8a9e7fe5c8e4ed",
+  "upstream_sha256": null
+}

@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-14",
+  "status": "locked_before_restart",
+  "architectures": 19,
+  "downstream_seed": 43,
+  "sampling_seed": 42,
+  "selection": "ascending sha256(filename); 33 or all if fewer",
+  "sampled_warmup_passes": 5,
+  "sampled_timed_passes": 10,
+  "full_retained_timed_passes": 1,
+  "full_retained_warmup": "GPU warmed by prior sampled evaluation",
+  "reason": "Bounded compute amendment; all architectures/blocks retained; no accuracy-based selection",
+  "script_sha256": "e1ef07e88ad0606aee9f9cc9849100467f5a6d173093b9cf3a821c84b4a9b93c"
+}

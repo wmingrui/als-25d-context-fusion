@@ -1,0 +1,28 @@
+[
+  {
+    "environment": "/root/autodl-tmp/als-env/bin/python",
+    "observed": {
+      "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+      "packages": {
+        "torch": "2.8.0+cu128",
+        "numpy": "1.26.4",
+        "scipy": "1.13.1",
+        "pandas": "2.2.3",
+        "tqdm": "4.66.2"
+      }
+    }
+  },
+  {
+    "environment": "/root/autodl-tmp/cg_upgrade_20260914_run02/pointnext_env/bin/python",
+    "observed": {
+      "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+      "packages": {
+        "torch": "2.8.0+cu128",
+        "numpy": "1.26.4",
+        "scipy": "1.13.1",
+        "pandas": "2.2.3",
+        "tqdm": "4.66.2"
+      }
+    }
+  }
+]

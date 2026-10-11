@@ -1,0 +1,21 @@
+{
+  "chosen": {
+    "DALES": {
+      "id": "r100_lr001",
+      "radius_metres": 1.0,
+      "lr": 0.001
+    },
+    "WHU": {
+      "id": "r100_lr001",
+      "radius_metres": 1.0,
+      "lr": 0.001
+    },
+    "H3D": {
+      "id": "r100_lr001",
+      "radius_metres": 1.0,
+      "lr": 0.001
+    }
+  },
+  "selection": "Maximum best medium-validation mIoU over 10 epochs per dataset; ties retain candidate order. All candidates reported. No test evaluation.",
+  "test_access": false
+}

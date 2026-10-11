@@ -1,0 +1,777 @@
+[
+  {
+    "path": "ALS-DiffBridge/outputs_v3/preprocessing/shared_25d_norm_v3.json",
+    "original_sha256": "27c984d83a13e1ded214721801101263dbe6dd0df32487af262f1026ec7ba10d",
+    "cleaned_sha256": "27c984d83a13e1ded214721801101263dbe6dd0df32487af262f1026ec7ba10d",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": null
+  },
+  {
+    "path": "ALS-DiffBridge/PROJECT_NAV_20260909/05_new_work/results/medium_seeds43_44_01/fixed_eval_seed.py",
+    "original_sha256": "e71bf28c2bc23dec0897f46dcc3bcdb70f6f67af936a57841031739f805ef283",
+    "cleaned_sha256": "31bad6f3740d0ea245f48684d98565e97f29781eae18b9fa047427099021195b",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "ALS-DiffBridge/PROJECT_NAV_20260909/05_new_work/results/observation_seeds43_44_20260910_01/train/s43_observation/config.json",
+    "original_sha256": "6258e3296cfd8d8a67f14c310f43271a915be9e1c2a394745c0f5a5001448589",
+    "cleaned_sha256": "6258e3296cfd8d8a67f14c310f43271a915be9e1c2a394745c0f5a5001448589",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": null
+  },
+  {
+    "path": "ALS-DiffBridge/scripts/preprocess/05_build_25d_maps_from_full_blocks.py",
+    "original_sha256": "3743a1dc5d6db5c63ecae9778a81c6f6f5a0c2b276f0cea4b11a8ae90202da15",
+    "cleaned_sha256": "0c04479df10818b574f25a6b7128dc06272fe368e1e569c8e6848aac8de25bbc",
+    "removed_comment_lines": [
+      51,
+      130,
+      153,
+      278
+    ],
+    "retained_comments": [
+      {
+        "line": 170,
+        "text": "# Raw physical maps.",
+        "reason": "runtime source marker"
+      },
+      {
+        "line": 142,
+        "text": "# Label map: majority semantic class per cell. -1 means invalid cell.",
+        "reason": "runtime source marker prefix"
+      },
+      {
+        "line": 186,
+        "text": "# Per-block normalized maps for direct U-Net / diffusion input.",
+        "reason": "runtime source marker prefix"
+      }
+    ],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "ALS-DiffBridge/scripts/preprocess/12_make_label_agnostic_degraded_dales_blocks_v3.py",
+    "original_sha256": "65e0844fea2d6adfa0383956534d711d96cce18c9a80b41e1f1d3ef4861bc067",
+    "cleaned_sha256": "4740c52857182dc8f12b726d143d1964e1498987692d2fba1263c155112db65a",
+    "removed_comment_lines": [
+      22,
+      23,
+      24,
+      140,
+      317,
+      344,
+      345,
+      346,
+      374,
+      375,
+      421
+    ],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "ALS-DiffBridge/scripts/preprocess/14_apply_shared_25d_normalization_v3.py",
+    "original_sha256": "b63cc023593fdd0ce99dbd2ff07083b07d38b1aab764d2667cdbe33310d73fcc",
+    "cleaned_sha256": "70853ed63a3c971a55b0e7b5885387019522a19d94bd03f66f7fc01b1ec1b345",
+    "removed_comment_lines": [
+      219,
+      220
+    ],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "ALS-DiffBridge/scripts/train/12_train_unet_25d_restoration.py",
+    "original_sha256": "aa6fdcc8940e041e1769b63c195c1a9a73f98fce8a971fba0ba6216beb5f2bf7",
+    "cleaned_sha256": "9fbe563785bccaeb8fc4e818a461373655190d0b490f7e91b3777202c8bfc5f4",
+    "removed_comment_lines": [
+      118,
+      119,
+      197,
+      198,
+      199,
+      200,
+      220,
+      225,
+      226,
+      238,
+      296,
+      297,
+      376,
+      377,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387
+    ],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "ALS-DiffBridge/scripts/train/39_train_randlanet_reliability_ablation.py",
+    "original_sha256": "177b10002322fc8c574d301c20e7634354ccba20470b11d5c8b6c030e4ffb9c1",
+    "cleaned_sha256": "c41089f8972f3ff2076716aa602c7766212aa975bccefd3e221ef4197ba14f25",
+    "removed_comment_lines": [
+      95,
+      277,
+      278,
+      281,
+      282,
+      422,
+      425,
+      604,
+      610,
+      611,
+      612,
+      613,
+      628,
+      629,
+      675,
+      676,
+      677,
+      695,
+      786,
+      787,
+      885,
+      978,
+      1018,
+      1019,
+      1020,
+      1045,
+      1160,
+      1161,
+      1162,
+      1218,
+      1219,
+      1789,
+      1802,
+      1868,
+      1869
+    ],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "ALS-DiffBridge/scripts/train/randlanet_torch_fallback.py",
+    "original_sha256": "676cc2c5b962cbb4cb3f7b14b4d167e056c0100ba8410fb56818e8ffa0ef0dd6",
+    "cleaned_sha256": "676cc2c5b962cbb4cb3f7b14b4d167e056c0100ba8410fb56818e8ffa0ef0dd6",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "ALS-DiffBridge/scripts/uq/frozen_unet_features.py",
+    "original_sha256": "0559cb288b26eb2fc558cd7b1ff05b36d29d79ff6923403e371608a11f75f0b1",
+    "cleaned_sha256": "0559cb288b26eb2fc558cd7b1ff05b36d29d79ff6923403e371608a11f75f0b1",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "ALS-DiffBridge/scripts/uq/tests/test_feature_control.py",
+    "original_sha256": "0d7cda09e06e0eea8af0ff7cbb30202cb9410b45c13c080ef82ee1047ace7565",
+    "cleaned_sha256": "0d7cda09e06e0eea8af0ff7cbb30202cb9410b45c13c080ef82ee1047ace7565",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "ALS-DiffBridge/scripts/uq/tests/test_train_restoration_control.py",
+    "original_sha256": "848c86562094eb26c5e24b21cff8669b75f9b86ed3f1ceb3ed6f3e1fa8ef8a29",
+    "cleaned_sha256": "848c86562094eb26c5e24b21cff8669b75f9b86ed3f1ceb3ed6f3e1fa8ef8a29",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "ALS-DiffBridge/scripts/uq/train_feature_control.py",
+    "original_sha256": "03a045fad69292ce91cbae980a046201e850e7a8f053baa7e0b8eacd96e870ac",
+    "cleaned_sha256": "03a045fad69292ce91cbae980a046201e850e7a8f053baa7e0b8eacd96e870ac",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "ALS-DiffBridge/scripts/uq/train_restoration_control.py",
+    "original_sha256": "27de31956d98fd093b12296ae11bbd74f14014bb0527f3c4f514579ccc126cf8",
+    "cleaned_sha256": "27de31956d98fd093b12296ae11bbd74f14014bb0527f3c4f514579ccc126cf8",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_analysis_20260914_01/cost_benchmark.py",
+    "original_sha256": "e1ef07e88ad0606aee9f9cc9849100467f5a6d173093b9cf3a821c84b4a9b93c",
+    "cleaned_sha256": "21670b4a01a3d7f0150bbc9c2b1a909e010cf38a289d24c7da810fc89909b8a1",
+    "removed_comment_lines": [
+      12,
+      59,
+      92,
+      137
+    ],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_analysis_20260914_01/cost_summarize.py",
+    "original_sha256": "b4d61ff4b286c4af90dee627e4a8567ed891cd845b7cc04b7a80fc421f525ad0",
+    "cleaned_sha256": "b4d61ff4b286c4af90dee627e4a8567ed891cd845b7cc04b7a80fc421f525ad0",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_analysis_20260914_01/summarize_terrain.py",
+    "original_sha256": "da651145ce3f2278c5acf4192c92b47c79706f889973c8116caa96ac8087cc11",
+    "cleaned_sha256": "a926952de4f32ca8e0993f16553322791026f7c864e5d3e3dbd76045c498b590",
+    "removed_comment_lines": [
+      48
+    ],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_analysis_20260914_01/terrain_core.py",
+    "original_sha256": "6bff46c37f986dc1392c521d60315ceac8e8f14dc3bcd07e6e2a6a43b23728f5",
+    "cleaned_sha256": "05f3f0cb2d6e0ddf240ccf70bdcd9d5699ac1d02e3a0cdac2fbab46254ed55fe",
+    "removed_comment_lines": [
+      9
+    ],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_analysis_20260914_01/terrain_evaluation.py",
+    "original_sha256": "87840d6a158ffd7d1a79357f528442a460aa6eb3ea8bf8a032b70c893a1a1b2d",
+    "cleaned_sha256": "87840d6a158ffd7d1a79357f528442a460aa6eb3ea8bf8a032b70c893a1a1b2d",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_analysis_20260914_01/terrain_provenance_check.py",
+    "original_sha256": "90e4c6be0a3f5b337ef9a971061a20fcf61bb8691b9079347765fa5f9d73a2ee",
+    "cleaned_sha256": "90e4c6be0a3f5b337ef9a971061a20fcf61bb8691b9079347765fa5f9d73a2ee",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_analysis_20260914_01/test_terrain_core.py",
+    "original_sha256": "1b593b4a010f1429eea80407286fb601353c6e5b0b17a2029918c6d1392214b1",
+    "cleaned_sha256": "1b593b4a010f1429eea80407286fb601353c6e5b0b17a2029918c6d1392214b1",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_d1d3_evaluation_20260914_01/audit_evaluation.py",
+    "original_sha256": "5487b1b9b89a625f6f28be43e02f00adf33cc29bb6b0b62a4af02e9d52cf7099",
+    "cleaned_sha256": "5487b1b9b89a625f6f28be43e02f00adf33cc29bb6b0b62a4af02e9d52cf7099",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_d1d3_evaluation_20260914_01/evaluate_remaining.py",
+    "original_sha256": "eabf32f6ae4d3b8144a79a09691388e93ef999d5ce6e39231314915d5cf1326b",
+    "cleaned_sha256": "eabf32f6ae4d3b8144a79a09691388e93ef999d5ce6e39231314915d5cf1326b",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_evaluation_20260914_01/compare_medium.py",
+    "original_sha256": "634301d0cb645b34f3dd9ca387cbb48682e770d616c0426b1a7440f1640053d8",
+    "cleaned_sha256": "634301d0cb645b34f3dd9ca387cbb48682e770d616c0426b1a7440f1640053d8",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_evaluation_20260914_01/evaluation.py",
+    "original_sha256": "495c4209c14b5a7c108d092051de696d8b7da03f1dfd3b36fa72d1d31b86059d",
+    "cleaned_sha256": "495c4209c14b5a7c108d092051de696d8b7da03f1dfd3b36fa72d1d31b86059d",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_evaluation_20260914_01/freeze.py",
+    "original_sha256": "723deef8566cad0d9cb99236440db5da10801fd5b2f4512aae56cf4349aba9e6",
+    "cleaned_sha256": "723deef8566cad0d9cb99236440db5da10801fd5b2f4512aae56cf4349aba9e6",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_evaluation_20260914_01/full_evaluation.py",
+    "original_sha256": "35594cbc98a978b6e380c70cdfea7c2c1c4602cb671dc23002e6987946505ca2",
+    "cleaned_sha256": "35594cbc98a978b6e380c70cdfea7c2c1c4602cb671dc23002e6987946505ca2",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_evaluation_20260914_01/prepare_full.py",
+    "original_sha256": "1bc234ddf9aff0013241d2073cea7bd63a9ccfdbdab1622acb5c8d5e3bd795ae",
+    "cleaned_sha256": "1bc234ddf9aff0013241d2073cea7bd63a9ccfdbdab1622acb5c8d5e3bd795ae",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_evaluation_20260914_01/summarize_fixed.py",
+    "original_sha256": "b1bc3805fbf1d85f1c33cfd973e863d17709132dc998be7d60badea27a65e88b",
+    "cleaned_sha256": "b1bc3805fbf1d85f1c33cfd973e863d17709132dc998be7d60badea27a65e88b",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_evaluation_20260914_01/test_evaluation.py",
+    "original_sha256": "a4cadb882da6ed1de62fdbb39acaff86ad1a066fd9d3117a9eadc02d69c001be",
+    "cleaned_sha256": "a4cadb882da6ed1de62fdbb39acaff86ad1a066fd9d3117a9eadc02d69c001be",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_evaluation_20260914_01/test_full.py",
+    "original_sha256": "f34dd84353de126cd648bde390162aedd7f82a952ee43317066d88d485a3b09c",
+    "cleaned_sha256": "f34dd84353de126cd648bde390162aedd7f82a952ee43317066d88d485a3b09c",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_upgrade_20260914_run02/controls.py",
+    "original_sha256": "6ab581c8478d36e71844438a94d7730c14dd7adcd236736e071e0afd0ec7992f",
+    "cleaned_sha256": "c66564870227587e03a650105001fa206df6fd456dbe44a096ecf73252bc504f",
+    "removed_comment_lines": [
+      26
+    ],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_upgrade_20260914_run02/external_controls.py",
+    "original_sha256": "0dd8f74de98a93b20c2b214d74cddf0f4c1a9b4b85bcdf85f441fd4ba00e22bd",
+    "cleaned_sha256": "0dd8f74de98a93b20c2b214d74cddf0f4c1a9b4b85bcdf85f441fd4ba00e22bd",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_upgrade_20260914_run02/pointnext_runner.py",
+    "original_sha256": "4659365ba5ec07028b451cc5b258bec0fb8597eea25557c22abe3c2ba69a621d",
+    "cleaned_sha256": "4659365ba5ec07028b451cc5b258bec0fb8597eea25557c22abe3c2ba69a621d",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_upgrade_20260914_run02/run_dales.py",
+    "original_sha256": "891cf0e79b4fdfbef51ca68e921d0c5643a26e4d02c01475a4868d79a0756f77",
+    "cleaned_sha256": "15cd01ea29be90cf84b84514d0c02a0e942001c162445a6719e734d11280778d",
+    "removed_comment_lines": [
+      27,
+      35,
+      36
+    ],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_upgrade_20260914_run02/run_external.py",
+    "original_sha256": "c8e0a026a47b9bba6dd0fa96e070c9666e51905dcf8cfae8490c8aedbd9d9d66",
+    "cleaned_sha256": "c8e0a026a47b9bba6dd0fa96e070c9666e51905dcf8cfae8490c8aedbd9d9d66",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_upgrade_20260914_run02/test_controls.py",
+    "original_sha256": "e4c81d1366b5e251986eb0bb81992a22ef90408a5f418c7a47ebe58cf8df5a34",
+    "cleaned_sha256": "e4c81d1366b5e251986eb0bb81992a22ef90408a5f418c7a47ebe58cf8df5a34",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_upgrade_20260914_run02/test_external.py",
+    "original_sha256": "7414c6f4da1baceedd5b29d1749a4683341fa19782cef0fb153e6112301244ca",
+    "cleaned_sha256": "7414c6f4da1baceedd5b29d1749a4683341fa19782cef0fb153e6112301244ca",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_upgrade_20260914_run02/test_pointnext.py",
+    "original_sha256": "abf50febcf541316f8171a19c1d6abda1b5e7d0774f4cab660fb6476f25c8881",
+    "cleaned_sha256": "abf50febcf541316f8171a19c1d6abda1b5e7d0774f4cab660fb6476f25c8881",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_upgrade_20260914_run03/controls.py",
+    "original_sha256": "6ab581c8478d36e71844438a94d7730c14dd7adcd236736e071e0afd0ec7992f",
+    "cleaned_sha256": "c66564870227587e03a650105001fa206df6fd456dbe44a096ecf73252bc504f",
+    "removed_comment_lines": [
+      26
+    ],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_upgrade_20260914_run03/d1_controls.py",
+    "original_sha256": "fe5d61fed43be1e185fa3e8314d1611de3fb52d3c1bab91a42b6e9543fc21bd0",
+    "cleaned_sha256": "14cf0f2f7452b49afd8e2c1878bf1fc414c5609dea8646cbabaa62fac21786f2",
+    "removed_comment_lines": [
+      29,
+      61,
+      72
+    ],
+    "retained_comments": [
+      {
+        "line": 25,
+        "text": "# noqa: F401  (adapter re-exported for runners)",
+        "reason": "directive or attribution"
+      }
+    ],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_upgrade_20260914_run03/d3_runner.py",
+    "original_sha256": "b744ec074f0172f179eda3cfc95d0227efb0b74e73854d3770013d354734ef00",
+    "cleaned_sha256": "c1df1097050a55fc6ba0c6b7b44bb4e1b4708fea3c29944a6081f269db742012",
+    "removed_comment_lines": [
+      80,
+      81,
+      130,
+      131
+    ],
+    "retained_comments": [
+      {
+        "line": 38,
+        "text": "# noqa: E402",
+        "reason": "directive or attribution"
+      },
+      {
+        "line": 39,
+        "text": "# noqa: E402",
+        "reason": "directive or attribution"
+      }
+    ],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_upgrade_20260914_run03/external_controls.py",
+    "original_sha256": "0dd8f74de98a93b20c2b214d74cddf0f4c1a9b4b85bcdf85f441fd4ba00e22bd",
+    "cleaned_sha256": "0dd8f74de98a93b20c2b214d74cddf0f4c1a9b4b85bcdf85f441fd4ba00e22bd",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_upgrade_20260914_run03/run_d1.py",
+    "original_sha256": "ed8936149e58a7ebdcb33ef50c010aebdd06c4d14507587496c9fa27a266161e",
+    "cleaned_sha256": "9d631064a2447651660792cbdb9d4ba46452cd5f235cf269dbf74d9b4cc66b72",
+    "removed_comment_lines": [
+      52,
+      66,
+      67
+    ],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_upgrade_20260914_run03/test_d1.py",
+    "original_sha256": "9cb0c82e0baa14823d9ad8970bc3077de6d486d2eff37a0954cb5e137381a961",
+    "cleaned_sha256": "9294d8818949f0b4bf52890097759a38494c47bc377d310cde79225e15773d00",
+    "removed_comment_lines": [
+      79,
+      89,
+      99,
+      109,
+      119,
+      131,
+      150,
+      164,
+      165
+    ],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_upgrade_20260914_run03/test_d3.py",
+    "original_sha256": "9953ad4fa798ad427d8eca0036cd1718656661c7e40c20d182f31009dcbfbffc",
+    "cleaned_sha256": "68e8cf0e16d82b420bda869b7f4768b222498e0f40ea9c1b2b7fbf8676e125db",
+    "removed_comment_lines": [
+      43,
+      71,
+      72
+    ],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "core_controls/controls.py",
+    "original_sha256": "6ab581c8478d36e71844438a94d7730c14dd7adcd236736e071e0afd0ec7992f",
+    "cleaned_sha256": "c66564870227587e03a650105001fa206df6fd456dbe44a096ecf73252bc504f",
+    "removed_comment_lines": [
+      26
+    ],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "core_controls/external_controls.py",
+    "original_sha256": "0dd8f74de98a93b20c2b214d74cddf0f4c1a9b4b85bcdf85f441fd4ba00e22bd",
+    "cleaned_sha256": "0dd8f74de98a93b20c2b214d74cddf0f4c1a9b4b85bcdf85f441fd4ba00e22bd",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "f16_run/controls.py",
+    "original_sha256": "6ab581c8478d36e71844438a94d7730c14dd7adcd236736e071e0afd0ec7992f",
+    "cleaned_sha256": "c66564870227587e03a650105001fa206df6fd456dbe44a096ecf73252bc504f",
+    "removed_comment_lines": [
+      26
+    ],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "f16_run/external_controls.py",
+    "original_sha256": "0dd8f74de98a93b20c2b214d74cddf0f4c1a9b4b85bcdf85f441fd4ba00e22bd",
+    "cleaned_sha256": "0dd8f74de98a93b20c2b214d74cddf0f4c1a9b4b85bcdf85f441fd4ba00e22bd",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "f16_run/f16_evaluate.py",
+    "original_sha256": "1b795b345324780f8f0d3c906963e284c139fecf68f8ddc2efe6ef8012256a8e",
+    "cleaned_sha256": "595aad1232d1cb389993c3966c35fdd9c90809d2e5333c02852e00026704813d",
+    "removed_comment_lines": [
+      41,
+      66
+    ],
+    "retained_comments": [
+      {
+        "line": 1,
+        "text": "# -*- coding: utf-8 -*-",
+        "reason": "directive or attribution"
+      }
+    ],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "f16_run/run_dales.py",
+    "original_sha256": "891cf0e79b4fdfbef51ca68e921d0c5643a26e4d02c01475a4868d79a0756f77",
+    "cleaned_sha256": "15cd01ea29be90cf84b84514d0c02a0e942001c162445a6719e734d11280778d",
+    "removed_comment_lines": [
+      27,
+      35,
+      36
+    ],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "f21_run/f21_coverage_isolation.py",
+    "original_sha256": "6e8d6f635be2d2eb1d440f39e636137fc07e5b818348c8904172663f2b128a61",
+    "cleaned_sha256": "3d66edce16b39760379dbed904c7a5954a7b8f132ed999ea7421513eb792eafe",
+    "removed_comment_lines": [
+      53,
+      54,
+      55,
+      72,
+      100,
+      107,
+      125,
+      131,
+      153,
+      185,
+      200,
+      223,
+      224,
+      225,
+      248
+    ],
+    "retained_comments": [
+      {
+        "line": 1,
+        "text": "# -*- coding: utf-8 -*-",
+        "reason": "directive or attribution"
+      }
+    ],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "f21_run/full_evaluation.py",
+    "original_sha256": "e9cadf4e8cf8d737c22a6a8442499e72d2030ec1fbfc4d77f466ec8d644b7254",
+    "cleaned_sha256": "e9cadf4e8cf8d737c22a6a8442499e72d2030ec1fbfc4d77f466ec8d644b7254",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "f44/f44_observation_scale.py",
+    "original_sha256": "308dc73a4584a60a344094ea3f72c40f3020cb6387ab8ca54dcab84e72854392",
+    "cleaned_sha256": "fe6d7e35b1ccb8f4fd4c664106b36cd84dc330e8eeefa02f94127e45e3c99297",
+    "removed_comment_lines": [
+      62,
+      63,
+      90,
+      106
+    ],
+    "retained_comments": [
+      {
+        "line": 1,
+        "text": "# -*- coding: utf-8 -*-",
+        "reason": "directive or attribution"
+      }
+    ],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "h3d25d/run_v2/normalization.json",
+    "original_sha256": "32c26c8cb8de253d83974da208f34d6a90049e8a53f20b60d8cbc3d1a8d2002d",
+    "cleaned_sha256": "32c26c8cb8de253d83974da208f34d6a90049e8a53f20b60d8cbc3d1a8d2002d",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": null
+  },
+  {
+    "path": "h3d25d/run_v2/protocol.json",
+    "original_sha256": "46d49eb368d6af3cb1f565cf9a9f26f3c8eab52cdc4a545adabd12c9f1b99b94",
+    "cleaned_sha256": "46d49eb368d6af3cb1f565cf9a9f26f3c8eab52cdc4a545adabd12c9f1b99b94",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": null
+  },
+  {
+    "path": "h3d25d/run_v2/reflectance_stats.json",
+    "original_sha256": "fbff709a18fd7ef9ddb4967b4c395939290223910a64606486a0969bd2e8bca0",
+    "cleaned_sha256": "fbff709a18fd7ef9ddb4967b4c395939290223910a64606486a0969bd2e8bca0",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": null
+  },
+  {
+    "path": "h3d25d/run_v2/repair_data.py",
+    "original_sha256": "68c0ec3d2d7f84e90d05f0c8ce58181ca2643407d3bbad0d18b3488c109910c8",
+    "cleaned_sha256": "68c0ec3d2d7f84e90d05f0c8ce58181ca2643407d3bbad0d18b3488c109910c8",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "h3d25d/run_v2/train/s43_observation/config.json",
+    "original_sha256": "c63d553677020716839bffb217ca61878147c637fa05c59e6fdc3e7a5e920df0",
+    "cleaned_sha256": "c63d553677020716839bffb217ca61878147c637fa05c59e6fdc3e7a5e920df0",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": null
+  },
+  {
+    "path": "h3d25d/run_v2/train_class_counts.json",
+    "original_sha256": "9c89c10de67b724f0791940014050f6e7d08cb2216c4753ccd6496aee6b43258",
+    "cleaned_sha256": "9c89c10de67b724f0791940014050f6e7d08cb2216c4753ccd6496aee6b43258",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": null
+  },
+  {
+    "path": "h3d25d/run_v2/train_complete.py",
+    "original_sha256": "4ccac3e7a25ef2bae115f26a6dc7f08d4f813d1231427213ac8a9e7fe5c8e4ed",
+    "cleaned_sha256": "a43ce5d5bbbcaec6af0d8911d349f52f8d0468e6d9f3f2e99f3626d450c24c23",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "whu25d/completion_v2/normalization.json",
+    "original_sha256": "a3689327a0170d5e078dddb0b84f8c6ead675d5564e1a0f8dfe7b107e1711877",
+    "cleaned_sha256": "a3689327a0170d5e078dddb0b84f8c6ead675d5564e1a0f8dfe7b107e1711877",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": null
+  },
+  {
+    "path": "whu25d/completion_v2/prepare_cache.py",
+    "original_sha256": "09cafbdc558cf7c02833d821aa5c307ccfec2aa09430af0935a0d3acb2a54e15",
+    "cleaned_sha256": "09cafbdc558cf7c02833d821aa5c307ccfec2aa09430af0935a0d3acb2a54e15",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "whu25d/completion_v2/protocol.json",
+    "original_sha256": "013f479b9f9e2208f5e22eea21c00b5f6221e921f6b31befa84198b7f7376acd",
+    "cleaned_sha256": "013f479b9f9e2208f5e22eea21c00b5f6221e921f6b31befa84198b7f7376acd",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": null
+  },
+  {
+    "path": "whu25d/completion_v2/train/s43_observation/config.json",
+    "original_sha256": "56db4dcc5b1d1ff2848d3f2d699271bcea7dd20095f78525e11672f58a689486",
+    "cleaned_sha256": "56db4dcc5b1d1ff2848d3f2d699271bcea7dd20095f78525e11672f58a689486",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": null
+  },
+  {
+    "path": "whu25d/completion_v2/train_class_counts.json",
+    "original_sha256": "ee8fa534ee43d68decaa02435f70367ca6bdc1e891016c7532fc50dc6500e137",
+    "cleaned_sha256": "ee8fa534ee43d68decaa02435f70367ca6bdc1e891016c7532fc50dc6500e137",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": null
+  },
+  {
+    "path": "whu25d/completion_v2/train_complete.py",
+    "original_sha256": "343dda546efbd37ed50b59a2c716aa9780f2c94921d3cb06aba35e8cb17e58ae",
+    "cleaned_sha256": "70c20f581941acfea86d18633bb61ab711a44156761697720d47eef41608176b",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": true
+  },
+  {
+    "path": "cg_upgrade_20260914_run03/D3_PROTOCOL_LOCK.json",
+    "original_sha256": "0caa1f602515813593135c7cf89184bc55af691126f556d8909a5365d06a00d3",
+    "cleaned_sha256": "0caa1f602515813593135c7cf89184bc55af691126f556d8909a5365d06a00d3",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": null
+  },
+  {
+    "path": "cg_upgrade_20260914_run02/pointnext_commit.json",
+    "original_sha256": "c5e23e974318445fbf1e9da40a0b4c6773b242b89a5e2693eda47a9df97e3b73",
+    "cleaned_sha256": "c5e23e974318445fbf1e9da40a0b4c6773b242b89a5e2693eda47a9df97e3b73",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": null
+  },
+  {
+    "path": "cg_upgrade_20260914_run02/openpoints_ref.json",
+    "original_sha256": "905593e5906e593f7c06ab15c3374c01adfce4333ce90fe36cff7db20868f7f0",
+    "cleaned_sha256": "905593e5906e593f7c06ab15c3374c01adfce4333ce90fe36cff7db20868f7f0",
+    "removed_comment_lines": [],
+    "retained_comments": [],
+    "executable_ast_unchanged": null
+  }
+]

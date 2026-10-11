@@ -1,0 +1,17 @@
+{
+  "validation_reproduced": 8,
+  "source_sha256": "eabf32f6ae4d3b8144a79a09691388e93ef999d5ce6e39231314915d5cf1326b",
+  "checkpoints": {
+    "D1_input_only_43": "a1302be14fb75dc7125691c763db48ab37e52697ff57f3d1d73749d7b9fb11ff",
+    "D1_input_only_44": "3c17b2197de6d753d979461897039b14bd188538594eaeb56283719cb99e2875",
+    "D1_stage1_only_43": "c9ab456c1cfe9af1ef1291fbaf08b2eb7244a6be382ba4f62c833e3c11070e00",
+    "D1_stage1_only_44": "96fc1883edb1b81395a5e547866f66721cbe5fea56fc167ae72cd85e86666f2c",
+    "D3_DALES_s43": "de6a8b713bc417f4b0ee4430203e8812c663aaadc356cea5e6d6201880d518ec",
+    "D3_DALES_s44": "fb4f0662cc390f5a805d600e35c31671b364f016c7452a9aea3caee28fff6d7e",
+    "D3_H3D_s43": "ca1e2e3285d03fe9e0e114fc2ef0299084a5f732ede05ff40b193ff480201b92",
+    "D3_H3D_s44": "b32f1a97a884037f8d0771b89d29bbc0010602c3dcb0f8d4b8f4a422bb859c0b"
+  },
+  "created": 1789379156.7946196,
+  "scope": "medium fixed 8192-record and all-retained protocols; seeds43/44; no new tuning",
+  "test_results_seen": false
+}

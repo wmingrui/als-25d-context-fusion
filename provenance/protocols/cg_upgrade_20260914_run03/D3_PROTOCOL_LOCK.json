@@ -1,0 +1,32 @@
+{
+  "status": "locked_before_formal_runs",
+  "experiment": "D3",
+  "question": "Does O's observation input representation still help when it is placed on a different, independently stable backbone?",
+  "backbone": "official PointNeXt-S (same implementation and recipe as the completed C-group formal runs)",
+  "adaptation": "O's input-fusion block (identical RGDIFusion, embed_ch=32, gate_bias=0.3, learned gate, no explicit quality modulation, no reliability descriptors) placed at the PointNeXt-S stem; encoder_args.in_channels 4 -> 36; observation prior identical to O (degraded raster; restored/reliability zero); NO internal injection because PointNeXt SA stages differ from RandLA - recorded as an input-fusion adaptation, not as full O",
+  "reused_environment": {
+    "root": "/root/autodl-tmp/cg_upgrade_20260914_run02",
+    "interpreter": "/root/autodl-tmp/cg_upgrade_20260914_run02/pointnext_env/bin/python",
+    "vendor": "/root/autodl-tmp/cg_upgrade_20260914_run02/vendor/PointNeXt-master",
+    "read_only": true,
+    "pointnext_commit": "b7ec10fd8b9acdb1c3b18e557f0d3465eb919164",
+    "openpoints_commit": "db31e0d94ede35bc672ef06d1b6e4073a9c269d5",
+    "hashes": {
+      "vendor/PointNeXt-master/cfgs/s3dis/pointnext-s.yaml": "40fa63493b2a55b59cf4a20cb51a08dcced7d7610b2d29ec117a78d2d6fb36b6",
+      "vendor/PointNeXt-master/openpoints/models/backbone/pointnext.py": "7772c619267a965e156b01b739b4f58219db767e57768ae950f5dd640a6f84d6",
+      "pointnext_commit.json": "c5e23e974318445fbf1e9da40a0b4c6773b242b89a5e2693eda47a9df97e3b73",
+      "openpoints_ref.json": "905593e5906e593f7c06ab15c3374c01adfce4333ce90fe36cff7db20868f7f0"
+    }
+  },
+  "datasets": {
+    "DALES": {"radius_metres": 1.0, "lr": 0.001, "epochs": 50, "batch": 2, "workers": 4, "classes": 8, "embed_ch": 32, "gate_bias": 0.3},
+    "H3D": {"radius_metres": 1.0, "lr": 0.001, "epochs": 100, "batch": 16, "workers": 2, "classes": 11, "embed_ch": 32, "gate_bias": 0.3}
+  },
+  "seeds": [43, 44],
+  "optimizer": "AdamW, weight_decay=1e-4, gradient norm clipping=1, cosine lr to 0.05*initial",
+  "precision": "FP32 with TF32 disabled (independent-backbone recipe; not a precision-matched ablation)",
+  "validation": "existing split and seed 42, fixed sampled evaluation, all dataset classes",
+  "selection": "maximum best medium-validation mIoU; ties keep the earlier epoch; frozen before any test",
+  "test_access": false,
+  "smoke": "1 epoch, at most 12 train and 4 validation batches; smoke never produces a paper checkpoint"
+}

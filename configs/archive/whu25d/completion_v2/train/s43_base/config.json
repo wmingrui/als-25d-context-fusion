@@ -1,0 +1,27 @@
+{
+  "method": "base",
+  "seed": 43,
+  "batch": 16,
+  "severity": "medium",
+  "workers": 2,
+  "epochs": 100,
+  "benchmark": 0,
+  "resume": false,
+  "eval_only": false,
+  "protocol_sha256": "ee6f6914f69f1b728f28907928d78fae5c43ddaf907bbc1ffcfd7b52e45657bd",
+  "normalization_sha256": "a3689327a0170d5e078dddb0b84f8c6ead675d5564e1a0f8dfe7b107e1711877",
+  "class_names": [
+    "other",
+    "ground",
+    "buildings",
+    "street_trees",
+    "tree_clusters",
+    "low_veg",
+    "lights",
+    "wire"
+  ],
+  "precision": "BF16 autocast training; FP32 validation",
+  "data_protocol": "50m nonoverlapping blocks, 8192 sampled records; 8-class training/main metrics, secondary 7-class metrics ignoring other GT; not full-scene benchmark",
+  "source_sha256": "343dda546efbd37ed50b59a2c716aa9780f2c94921d3cb06aba35e8cb17e58ae",
+  "upstream_sha256": null
+}

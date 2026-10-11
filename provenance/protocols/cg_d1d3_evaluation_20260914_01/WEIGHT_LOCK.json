@@ -1,0 +1,38 @@
+{
+  "checkpoints": {
+    "D1_input_only_43": "a1302be14fb75dc7125691c763db48ab37e52697ff57f3d1d73749d7b9fb11ff",
+    "D1_input_only_44": "3c17b2197de6d753d979461897039b14bd188538594eaeb56283719cb99e2875",
+    "D1_stage1_only_43": "c9ab456c1cfe9af1ef1291fbaf08b2eb7244a6be382ba4f62c833e3c11070e00",
+    "D1_stage1_only_44": "96fc1883edb1b81395a5e547866f66721cbe5fea56fc167ae72cd85e86666f2c",
+    "D3_DALES_s43": "de6a8b713bc417f4b0ee4430203e8812c663aaadc356cea5e6d6201880d518ec",
+    "D3_DALES_s44": "fb4f0662cc390f5a805d600e35c31671b364f016c7452a9aea3caee28fff6d7e",
+    "D3_H3D_s43": "ca1e2e3285d03fe9e0e114fc2ef0299084a5f732ede05ff40b193ff480201b92",
+    "D3_H3D_s44": "b32f1a97a884037f8d0771b89d29bbc0010602c3dcb0f8d4b8f4a422bb859c0b"
+  },
+  "last_checkpoints": {
+    "D1_input_only_43": "4d34817b64a016ebe9f9aeeddb1741e9133dda0b0b391c9de423fba72da35df1",
+    "D1_input_only_44": "d505bc3e250aa6b5cf64c2481d872fe693ec44cfe3cca6003392c9859503ea06",
+    "D1_stage1_only_43": "ad5ac7acfa8797d0f6eefba5e7843407f2530d8c918beced56e65375be5a0d62",
+    "D1_stage1_only_44": "cd7311607fccc6067b40be7e4773ade8300254a443a456bda2512f962784b278",
+    "D3_DALES_s43": "03165388bdfca5350a53b6ec58c4068336d44316f457e1dac9ae9ca1cc51e07d",
+    "D3_DALES_s44": "c2e32de8aee7e13d44c85c471b2b318ebef9dedbffda6b738114d43a4a20a884",
+    "D3_H3D_s43": "2545ee4740ce4f199acb76188365ac983a0b80b60ba215a57724c5a2f5fb8daf",
+    "D3_H3D_s44": "47004050fb3ae76917e6a2f6afe826d553445b43ed9c6fde27f4935e47a664a1"
+  },
+  "configs": {
+    "D1_input_only_43": "9cc9bcc88b95661681de1291638e97813af60eb329725d1cd8f4ae03ed553f9c",
+    "D1_input_only_44": "d38cc42720d1c56849d00fd23ab5ab6888a5fc072e7dce351ef83d0b95186d29",
+    "D1_stage1_only_43": "a119313cfc15b341d6e43d61ebe82ecfea080b651bb9de60fea3261c060256d2",
+    "D1_stage1_only_44": "28797f1e2c1d5a8d49ade96a004eca42cfeea8440a4d2c0771a6c39b14cf93d5",
+    "D3_DALES_s43": "964e01bdce744eb5d7e349001d91a8522b5ed0b3d2fd5808212992b451bd60e9",
+    "D3_DALES_s44": "167e0cf11713b9f744f0332b225b003888989c496e2f9b7740241f9c32e8dd3e",
+    "D3_H3D_s43": "b9577cf57ab6529612f935b053572b2f7eeff9be60e9fe1ab81fdd06a1014e3b",
+    "D3_H3D_s44": "6001c7bb63eed6fe253c8ee447cbb98a5f450cbffcdeac3bdc1ebd6397b92ead"
+  },
+  "source_sha256": "eabf32f6ae4d3b8144a79a09691388e93ef999d5ce6e39231314915d5cf1326b",
+  "inherited_sources": {
+    "evaluation.py": "495c4209c14b5a7c108d092051de696d8b7da03f1dfd3b36fa72d1d31b86059d",
+    "full_evaluation.py": "e9cadf4e8cf8d737c22a6a8442499e72d2030ec1fbfc4d77f466ec8d644b7254"
+  },
+  "created": 1789379086.7527797
+}

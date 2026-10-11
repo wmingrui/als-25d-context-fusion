@@ -1,0 +1,6 @@
+{
+  "fit_split": "train",
+  "q01": -14.970000267028809,
+  "q99": -2.4700000286102295,
+  "sampling": "every100th record per1M chunk"
+}

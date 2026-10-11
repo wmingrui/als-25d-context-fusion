@@ -1,0 +1,717 @@
+{
+  "created": 1789350035.4409835,
+  "jobs": [
+    {
+      "id": "old_DALES_s43_base",
+      "dataset": "DALES",
+      "variant": "Base",
+      "checkpoint": "/root/autodl-tmp/ALS-DiffBridge/PROJECT_NAV_20260909/05_new_work/results/medium_seeds43_44_01/s43_base/best.pt",
+      "sha256": "8fb9ff01bb44f41359273b08e9121caf064870803eb80f04bc0d6084cac04fce",
+      "config": "/root/autodl-tmp/ALS-DiffBridge/PROJECT_NAV_20260909/05_new_work/results/medium_seeds43_44_01/s43_base/config.json"
+    },
+    {
+      "id": "old_DALES_s44_base",
+      "dataset": "DALES",
+      "variant": "Base",
+      "checkpoint": "/root/autodl-tmp/ALS-DiffBridge/PROJECT_NAV_20260909/05_new_work/results/medium_seeds43_44_01/s44_base/best.pt",
+      "sha256": "2c736ae710230c268bcfb778d7e4958d669ac7c7b7cb096d40dc07bd66dc905e",
+      "config": "/root/autodl-tmp/ALS-DiffBridge/PROJECT_NAV_20260909/05_new_work/results/medium_seeds43_44_01/s44_base/config.json"
+    },
+    {
+      "id": "old_DALES_observation_43",
+      "dataset": "DALES",
+      "variant": "O_full",
+      "checkpoint": "/root/autodl-tmp/ALS-DiffBridge/PROJECT_NAV_20260909/05_new_work/results/observation_seeds43_44_20260910_01/train/s43_observation/best.pt",
+      "sha256": "d562a4aa990d38152eb75c156801c3f1eba1b97d907ea6190d5bbc64fd1cd8f8",
+      "config": "/root/autodl-tmp/ALS-DiffBridge/PROJECT_NAV_20260909/05_new_work/results/observation_seeds43_44_20260910_01/train/s43_observation/config.json"
+    },
+    {
+      "id": "old_DALES_observation_44",
+      "dataset": "DALES",
+      "variant": "O_full",
+      "checkpoint": "/root/autodl-tmp/ALS-DiffBridge/PROJECT_NAV_20260909/05_new_work/results/observation_seeds43_44_20260910_01/train/s44_observation/best.pt",
+      "sha256": "0363cc1ae36a3eb0aff7ad90003cef0f87312082310d5034edd898faea4699ee",
+      "config": "/root/autodl-tmp/ALS-DiffBridge/PROJECT_NAV_20260909/05_new_work/results/observation_seeds43_44_20260910_01/train/s44_observation/config.json"
+    },
+    {
+      "id": "old_WHU_base_43",
+      "dataset": "WHU",
+      "variant": "Base",
+      "method": "base",
+      "checkpoint": "/root/autodl-tmp/whu25d/completion_v2/train/s43_base/best.pt",
+      "sha256": "3c2085003540051ab7d3a21eac0f5619fd46014ad6a105827ea47e1adfa7e307",
+      "config": "/root/autodl-tmp/whu25d/completion_v2/train/s43_base/config.json"
+    },
+    {
+      "id": "old_WHU_observation_43",
+      "dataset": "WHU",
+      "variant": "O_full",
+      "method": "observation",
+      "checkpoint": "/root/autodl-tmp/whu25d/completion_v2/train/s43_observation/best.pt",
+      "sha256": "3957559547c549facf427ed8ff11744cc85207ef1898407cc0d83d1c65153d36",
+      "config": "/root/autodl-tmp/whu25d/completion_v2/train/s43_observation/config.json"
+    },
+    {
+      "id": "old_WHU_base_44",
+      "dataset": "WHU",
+      "variant": "Base",
+      "method": "base",
+      "checkpoint": "/root/autodl-tmp/whu25d/completion_v2/train/s44_base/best.pt",
+      "sha256": "bc1f1868022c0724a6046a8344d7a8d0912dce02f45e121f0c32f2c02853ca06",
+      "config": "/root/autodl-tmp/whu25d/completion_v2/train/s44_base/config.json"
+    },
+    {
+      "id": "old_WHU_observation_44",
+      "dataset": "WHU",
+      "variant": "O_full",
+      "method": "observation",
+      "checkpoint": "/root/autodl-tmp/whu25d/completion_v2/train/s44_observation/best.pt",
+      "sha256": "2c8cadc972cc6537811248c52a19f4d05681637b8ed95deb0380f6c6b95dcaac",
+      "config": "/root/autodl-tmp/whu25d/completion_v2/train/s44_observation/config.json"
+    },
+    {
+      "id": "old_H3D_base_43",
+      "dataset": "H3D",
+      "variant": "Base",
+      "method": "base",
+      "checkpoint": "/root/autodl-tmp/h3d25d/run_v2/train/s43_base/best.pt",
+      "sha256": "49d1f08da2a58c77146b162a2adf09ba7ef8e0baa83df668f0ceca3b1afb5a78",
+      "config": "/root/autodl-tmp/h3d25d/run_v2/train/s43_base/config.json"
+    },
+    {
+      "id": "old_H3D_observation_43",
+      "dataset": "H3D",
+      "variant": "O_full",
+      "method": "observation",
+      "checkpoint": "/root/autodl-tmp/h3d25d/run_v2/train/s43_observation/best.pt",
+      "sha256": "981c089cac5c97d6bd7dc313ef07b156befb48cce3f21e981f1cb51057c912bb",
+      "config": "/root/autodl-tmp/h3d25d/run_v2/train/s43_observation/config.json"
+    },
+    {
+      "id": "old_H3D_base_44",
+      "dataset": "H3D",
+      "variant": "Base",
+      "method": "base",
+      "checkpoint": "/root/autodl-tmp/h3d25d/run_v2/train/s44_base/best.pt",
+      "sha256": "2af60bdf5c03162f3ff4def24691b67d1437301defe58fc91cd7b2bd83ee35a4",
+      "config": "/root/autodl-tmp/h3d25d/run_v2/train/s44_base/config.json"
+    },
+    {
+      "id": "old_H3D_observation_44",
+      "dataset": "H3D",
+      "variant": "O_full",
+      "method": "observation",
+      "checkpoint": "/root/autodl-tmp/h3d25d/run_v2/train/s44_observation/best.pt",
+      "sha256": "80794da01332b8915af8f9a311a939069e2529ce7e56d0c69390329371902191",
+      "config": "/root/autodl-tmp/h3d25d/run_v2/train/s44_observation/config.json"
+    },
+    {
+      "id": "train__DALES_sampled_43",
+      "dataset": "DALES",
+      "variant": "O_sampled",
+      "new": {
+        "path": "train/DALES_sampled_43",
+        "epochs": 50,
+        "best_validation_mIoU": 0.6685279505361459,
+        "last_validation_mIoU": 0.6581464162259978,
+        "checkpoints": {
+          "best.pt": {
+            "epoch": 45,
+            "bytes": 15348610,
+            "sha256": "e6998927166e27b18528d9aae7b7898ea919b74d68c8062e250273f34bff307f"
+          },
+          "last.pt": {
+            "epoch": 50,
+            "bytes": 15348610,
+            "sha256": "81795c8277092eb63d4c6d1133e0152aaad7d3cad8b8b99f7103914349bcb74d"
+          }
+        }
+      },
+      "checkpoint": "/root/autodl-tmp/cg_upgrade_20260914_run02/train/DALES_sampled_43/best.pt",
+      "sha256": "e6998927166e27b18528d9aae7b7898ea919b74d68c8062e250273f34bff307f"
+    },
+    {
+      "id": "train__DALES_sampled_44",
+      "dataset": "DALES",
+      "variant": "O_sampled",
+      "new": {
+        "path": "train/DALES_sampled_44",
+        "epochs": 50,
+        "best_validation_mIoU": 0.6732099089952834,
+        "last_validation_mIoU": 0.6717789775565498,
+        "checkpoints": {
+          "best.pt": {
+            "epoch": 48,
+            "bytes": 15349826,
+            "sha256": "348dea824ce516225348b91b460b9faf4d33872329d0aaa75e1221ba3c809280"
+          },
+          "last.pt": {
+            "epoch": 50,
+            "bytes": 15349826,
+            "sha256": "406d2940379f3b830e65f6aad6ae2eab4a192e588a37c3e5a9374dbaff19af2f"
+          }
+        }
+      },
+      "checkpoint": "/root/autodl-tmp/cg_upgrade_20260914_run02/train/DALES_sampled_44/best.pt",
+      "sha256": "348dea824ce516225348b91b460b9faf4d33872329d0aaa75e1221ba3c809280"
+    },
+    {
+      "id": "train__DALES_point_43",
+      "dataset": "DALES",
+      "variant": "O_point",
+      "new": {
+        "path": "train/DALES_point_43",
+        "epochs": 50,
+        "best_validation_mIoU": 0.6611655621230137,
+        "last_validation_mIoU": 0.6441694980151114,
+        "checkpoints": {
+          "best.pt": {
+            "epoch": 42,
+            "bytes": 15349826,
+            "sha256": "b4634d568bde917d530e0d8c3b6078e2ad94a9299f0719e9decc170257a3461e"
+          },
+          "last.pt": {
+            "epoch": 50,
+            "bytes": 15349826,
+            "sha256": "81f4bbda3270fd4ca37c397915cfbefc59af1f9950a860e3b955c65e1efd141c"
+          }
+        }
+      },
+      "checkpoint": "/root/autodl-tmp/cg_upgrade_20260914_run02/train/DALES_point_43/best.pt",
+      "sha256": "b4634d568bde917d530e0d8c3b6078e2ad94a9299f0719e9decc170257a3461e"
+    },
+    {
+      "id": "train__DALES_point_44",
+      "dataset": "DALES",
+      "variant": "O_point",
+      "new": {
+        "path": "train/DALES_point_44",
+        "epochs": 50,
+        "best_validation_mIoU": 0.6668731214530593,
+        "last_validation_mIoU": 0.6646398517472947,
+        "checkpoints": {
+          "best.pt": {
+            "epoch": 32,
+            "bytes": 15349826,
+            "sha256": "037c5613c1b11d093f615ec581a1e906168d625ab708f867860b8dfb015574ed"
+          },
+          "last.pt": {
+            "epoch": 50,
+            "bytes": 15349826,
+            "sha256": "01fd0fa07342553cb7eb5ca03202b1ee338c049d4967a5b041213ef6451977b5"
+          }
+        }
+      },
+      "checkpoint": "/root/autodl-tmp/cg_upgrade_20260914_run02/train/DALES_point_44/best.pt",
+      "sha256": "037c5613c1b11d093f615ec581a1e906168d625ab708f867860b8dfb015574ed"
+    },
+    {
+      "id": "external__WHU__train__s43_observation",
+      "dataset": "WHU",
+      "variant": "O_sampled",
+      "new": {
+        "path": "external/WHU/train/s43_observation",
+        "epochs": 100,
+        "best_validation_mIoU": 0.45746810243471037,
+        "last_validation_mIoU": 0.4482409702973602,
+        "checkpoints": {
+          "best.pt": {
+            "epoch": 66,
+            "bytes": 5162052,
+            "sha256": "d8e5f0f38611d385e733af7e60abc3bd0848c591968df34b21358fac640b04f0"
+          },
+          "last.pt": {
+            "epoch": 100,
+            "bytes": 15345021,
+            "sha256": "9abcd1fd39d1b741c7c554a45ee3c381cb955e4a95d5d0037f492dc646df5beb"
+          }
+        }
+      },
+      "checkpoint": "/root/autodl-tmp/cg_upgrade_20260914_run02/external/WHU/train/s43_observation/best.pt",
+      "sha256": "d8e5f0f38611d385e733af7e60abc3bd0848c591968df34b21358fac640b04f0"
+    },
+    {
+      "id": "external__WHU__train__s44_observation",
+      "dataset": "WHU",
+      "variant": "O_sampled",
+      "new": {
+        "path": "external/WHU/train/s44_observation",
+        "epochs": 100,
+        "best_validation_mIoU": 0.4514886827035646,
+        "last_validation_mIoU": 0.4438648097949564,
+        "checkpoints": {
+          "best.pt": {
+            "epoch": 46,
+            "bytes": 5162052,
+            "sha256": "ec371e89739e81237cffe5f133bcd13f0bc4d3c9b543fe0886bc2c7bee75e608"
+          },
+          "last.pt": {
+            "epoch": 100,
+            "bytes": 15345021,
+            "sha256": "5ef6056a9c81c6f7e5304b136c715f1bf56d2384db0a3ce635064c2c02ee85c9"
+          }
+        }
+      },
+      "checkpoint": "/root/autodl-tmp/cg_upgrade_20260914_run02/external/WHU/train/s44_observation/best.pt",
+      "sha256": "ec371e89739e81237cffe5f133bcd13f0bc4d3c9b543fe0886bc2c7bee75e608"
+    },
+    {
+      "id": "external__H3D__train__s43_observation",
+      "dataset": "H3D",
+      "variant": "O_sampled",
+      "new": {
+        "path": "external/H3D/train/s43_observation",
+        "epochs": 100,
+        "best_validation_mIoU": 0.5079213092922498,
+        "last_validation_mIoU": 0.5013932312610151,
+        "checkpoints": {
+          "best.pt": {
+            "epoch": 75,
+            "bytes": 5162564,
+            "sha256": "041f25ce82ace690e93ff0f7cce0f767b3102350a18273d7cbc0413b83e1b60d"
+          },
+          "last.pt": {
+            "epoch": 100,
+            "bytes": 15346173,
+            "sha256": "57fbe08a1f87c70c14a8b76cbdadf9b2e1a408ff9f924b71b17a51e763196119"
+          }
+        }
+      },
+      "checkpoint": "/root/autodl-tmp/cg_upgrade_20260914_run02/external/H3D/train/s43_observation/best.pt",
+      "sha256": "041f25ce82ace690e93ff0f7cce0f767b3102350a18273d7cbc0413b83e1b60d"
+    },
+    {
+      "id": "external__H3D__train__s44_observation",
+      "dataset": "H3D",
+      "variant": "O_sampled",
+      "new": {
+        "path": "external/H3D/train/s44_observation",
+        "epochs": 100,
+        "best_validation_mIoU": 0.522767749515966,
+        "last_validation_mIoU": 0.5069729341296344,
+        "checkpoints": {
+          "best.pt": {
+            "epoch": 53,
+            "bytes": 5162564,
+            "sha256": "c87b7ccb315b33c2a51df882fd1988dd4a557b44ac781e8747d27dfa30a156bd"
+          },
+          "last.pt": {
+            "epoch": 100,
+            "bytes": 15346173,
+            "sha256": "4f1d4efe6a85ee0ad4471f93742364e8e802a90d2766bd59d9894b4799625a89"
+          }
+        }
+      },
+      "checkpoint": "/root/autodl-tmp/cg_upgrade_20260914_run02/external/H3D/train/s44_observation/best.pt",
+      "sha256": "c87b7ccb315b33c2a51df882fd1988dd4a557b44ac781e8747d27dfa30a156bd"
+    },
+    {
+      "id": "pointnext_runs__formal_DALES_s43",
+      "dataset": "DALES",
+      "variant": "PointNeXt_S",
+      "new": {
+        "path": "pointnext_runs/formal_DALES_s43",
+        "epochs": 50,
+        "best_validation_mIoU": 0.5524360291332768,
+        "last_validation_mIoU": 0.5303508964111737,
+        "checkpoints": {
+          "best.pt": {
+            "epoch": 26,
+            "bytes": 9626035,
+            "sha256": "459d1ad44e30fe326542ec54129d9278b2f93aa7672b00ed0dcc8048bbe4cb61"
+          },
+          "last.pt": {
+            "epoch": 50,
+            "bytes": 9626035,
+            "sha256": "1fd971ec592a08be6f64897adbc98e40ae0149432e0fed0dd499fb81d0aabd02"
+          }
+        }
+      },
+      "checkpoint": "/root/autodl-tmp/cg_upgrade_20260914_run02/pointnext_runs/formal_DALES_s43/best.pt",
+      "sha256": "459d1ad44e30fe326542ec54129d9278b2f93aa7672b00ed0dcc8048bbe4cb61"
+    },
+    {
+      "id": "pointnext_runs__formal_DALES_s44",
+      "dataset": "DALES",
+      "variant": "PointNeXt_S",
+      "new": {
+        "path": "pointnext_runs/formal_DALES_s44",
+        "epochs": 50,
+        "best_validation_mIoU": 0.5142471053075136,
+        "last_validation_mIoU": 0.5142471053075136,
+        "checkpoints": {
+          "best.pt": {
+            "epoch": 50,
+            "bytes": 9626035,
+            "sha256": "dea1cbdf90558dead6fb2f308f820cfb3aea8425ce5cede777560b270564c7db"
+          },
+          "last.pt": {
+            "epoch": 50,
+            "bytes": 9626035,
+            "sha256": "018054da583c05ed25d8289c89cde3234134bb4bd4a7677c790b5974d0f5d87d"
+          }
+        }
+      },
+      "checkpoint": "/root/autodl-tmp/cg_upgrade_20260914_run02/pointnext_runs/formal_DALES_s44/best.pt",
+      "sha256": "dea1cbdf90558dead6fb2f308f820cfb3aea8425ce5cede777560b270564c7db"
+    },
+    {
+      "id": "pointnext_runs__formal_WHU_s43",
+      "dataset": "WHU",
+      "variant": "PointNeXt_S",
+      "new": {
+        "path": "pointnext_runs/formal_WHU_s43",
+        "epochs": 100,
+        "best_validation_mIoU": 0.44618091398577575,
+        "last_validation_mIoU": 0.42639316643178277,
+        "checkpoints": {
+          "best.pt": {
+            "epoch": 74,
+            "bytes": 9626035,
+            "sha256": "857ba80a8681d68e3713911f7c053362eb59bdd4e3df38dbfeb9ed54f3b14a92"
+          },
+          "last.pt": {
+            "epoch": 100,
+            "bytes": 9626035,
+            "sha256": "3680d96bc68195a07b4e57dc886a3c34c36cef8bb4d39060366c4717bc3b724d"
+          }
+        }
+      },
+      "checkpoint": "/root/autodl-tmp/cg_upgrade_20260914_run02/pointnext_runs/formal_WHU_s43/best.pt",
+      "sha256": "857ba80a8681d68e3713911f7c053362eb59bdd4e3df38dbfeb9ed54f3b14a92"
+    },
+    {
+      "id": "pointnext_runs__formal_WHU_s44",
+      "dataset": "WHU",
+      "variant": "PointNeXt_S",
+      "new": {
+        "path": "pointnext_runs/formal_WHU_s44",
+        "epochs": 100,
+        "best_validation_mIoU": 0.44243364926389583,
+        "last_validation_mIoU": 0.41671404820611696,
+        "checkpoints": {
+          "best.pt": {
+            "epoch": 60,
+            "bytes": 9626035,
+            "sha256": "6c2d4bbd72f05b7588ef2dae232f6dbf6d499b9491564020edee907e61a94361"
+          },
+          "last.pt": {
+            "epoch": 100,
+            "bytes": 9626035,
+            "sha256": "6ab08e3635d0a916d2f37e33cf204b50c8901deeb0f60388e4423515fbf50b92"
+          }
+        }
+      },
+      "checkpoint": "/root/autodl-tmp/cg_upgrade_20260914_run02/pointnext_runs/formal_WHU_s44/best.pt",
+      "sha256": "6c2d4bbd72f05b7588ef2dae232f6dbf6d499b9491564020edee907e61a94361"
+    },
+    {
+      "id": "pointnext_runs__formal_H3D_s43",
+      "dataset": "H3D",
+      "variant": "PointNeXt_S",
+      "new": {
+        "path": "pointnext_runs/formal_H3D_s43",
+        "epochs": 100,
+        "best_validation_mIoU": 0.5191570591770024,
+        "last_validation_mIoU": 0.4789545192181113,
+        "checkpoints": {
+          "best.pt": {
+            "epoch": 29,
+            "bytes": 9627251,
+            "sha256": "cb757b573924465afff1a38bfda6fd1bed3a746026a1128f5b90f760a86d87d0"
+          },
+          "last.pt": {
+            "epoch": 100,
+            "bytes": 9627251,
+            "sha256": "c6fe7985243cda844406f9c42f2fc70c7a812167204fce3eb707efeabd18202b"
+          }
+        }
+      },
+      "checkpoint": "/root/autodl-tmp/cg_upgrade_20260914_run02/pointnext_runs/formal_H3D_s43/best.pt",
+      "sha256": "cb757b573924465afff1a38bfda6fd1bed3a746026a1128f5b90f760a86d87d0"
+    },
+    {
+      "id": "pointnext_runs__formal_H3D_s44",
+      "dataset": "H3D",
+      "variant": "PointNeXt_S",
+      "new": {
+        "path": "pointnext_runs/formal_H3D_s44",
+        "epochs": 100,
+        "best_validation_mIoU": 0.5388302354627929,
+        "last_validation_mIoU": 0.5008248592374781,
+        "checkpoints": {
+          "best.pt": {
+            "epoch": 39,
+            "bytes": 9627251,
+            "sha256": "527cc41aac00634cdf0eeab55c08132838d9df69e500101e37694bb8c80f7356"
+          },
+          "last.pt": {
+            "epoch": 100,
+            "bytes": 9627251,
+            "sha256": "07dbe0fbf953cd6ca0401672490586b9b5aafbc66c038654499ec7e8541eb3be"
+          }
+        }
+      },
+      "checkpoint": "/root/autodl-tmp/cg_upgrade_20260914_run02/pointnext_runs/formal_H3D_s44/best.pt",
+      "sha256": "527cc41aac00634cdf0eeab55c08132838d9df69e500101e37694bb8c80f7356"
+    },
+    {
+      "id": "old_DALES_s43_feature",
+      "dataset": "DALES",
+      "variant": "F_pre",
+      "checkpoint": "/root/autodl-tmp/ALS-DiffBridge/PROJECT_NAV_20260909/05_new_work/results/medium_seeds43_44_01/s43_feature/best.pt",
+      "sha256": "9e32ad8d1812cbc7a585cc9f8d3ea13a09d921203aa7e2707ae46979a2793897",
+      "config": "/root/autodl-tmp/ALS-DiffBridge/PROJECT_NAV_20260909/05_new_work/results/medium_seeds43_44_01/s43_feature/config.json"
+    },
+    {
+      "id": "old_DALES_s44_feature",
+      "dataset": "DALES",
+      "variant": "F_pre",
+      "checkpoint": "/root/autodl-tmp/ALS-DiffBridge/PROJECT_NAV_20260909/05_new_work/results/medium_seeds43_44_01/s44_feature/best.pt",
+      "sha256": "236554f9ba5d55f1f426568ac540ce7a65c467707c879233bb335f06ea998d96",
+      "config": "/root/autodl-tmp/ALS-DiffBridge/PROJECT_NAV_20260909/05_new_work/results/medium_seeds43_44_01/s44_feature/config.json"
+    },
+    {
+      "id": "old_DALES_random_feature_43",
+      "dataset": "DALES",
+      "variant": "F_rnd",
+      "checkpoint": "/root/autodl-tmp/ALS-DiffBridge/PROJECT_NAV_20260909/05_new_work/results/random_unet_control_medium_20260910_01/train/s43_random_feature/best.pt",
+      "sha256": "fd2126d5cfa98042ec18f6b498fcc71765356761f946b419e4380d1203924496",
+      "config": "/root/autodl-tmp/ALS-DiffBridge/PROJECT_NAV_20260909/05_new_work/results/random_unet_control_medium_20260910_01/train/s43_random_feature/config.json"
+    },
+    {
+      "id": "old_DALES_random_feature_44",
+      "dataset": "DALES",
+      "variant": "F_rnd",
+      "checkpoint": "/root/autodl-tmp/ALS-DiffBridge/PROJECT_NAV_20260909/05_new_work/results/random_unet_control_medium_20260910_01/train/s44_random_feature/best.pt",
+      "sha256": "66df6684d29ba009614f2acb651845a282d819e30833715da708f3c113a3ce7b",
+      "config": "/root/autodl-tmp/ALS-DiffBridge/PROJECT_NAV_20260909/05_new_work/results/random_unet_control_medium_20260910_01/train/s44_random_feature/config.json"
+    },
+    {
+      "id": "old_WHU_feature_43",
+      "dataset": "WHU",
+      "variant": "F_pre",
+      "method": "feature",
+      "checkpoint": "/root/autodl-tmp/whu25d/completion_v2/train/s43_feature/best.pt",
+      "sha256": "22924f3789d8213bfde55dc85034e2da79c8881dc3ece7c653c64b753f4a06d7",
+      "config": "/root/autodl-tmp/whu25d/completion_v2/train/s43_feature/config.json"
+    },
+    {
+      "id": "old_WHU_random_feature_43",
+      "dataset": "WHU",
+      "variant": "F_rnd",
+      "method": "random_feature",
+      "checkpoint": "/root/autodl-tmp/whu25d/completion_v2/train/s43_random_feature/best.pt",
+      "sha256": "e0fcd835bdbc7bfa437f3480d7441273e445a672be8c32aea50b905a151382c4",
+      "config": "/root/autodl-tmp/whu25d/completion_v2/train/s43_random_feature/config.json"
+    },
+    {
+      "id": "old_WHU_feature_44",
+      "dataset": "WHU",
+      "variant": "F_pre",
+      "method": "feature",
+      "checkpoint": "/root/autodl-tmp/whu25d/completion_v2/train/s44_feature/best.pt",
+      "sha256": "c13d6cab35cc88b955dfe35f1f7ddbf6255ea86d55b2adb58ff8e62610e5a0a9",
+      "config": "/root/autodl-tmp/whu25d/completion_v2/train/s44_feature/config.json"
+    },
+    {
+      "id": "old_WHU_random_feature_44",
+      "dataset": "WHU",
+      "variant": "F_rnd",
+      "method": "random_feature",
+      "checkpoint": "/root/autodl-tmp/whu25d/completion_v2/train/s44_random_feature/best.pt",
+      "sha256": "8a3fd2739e33a9937e9ffd781968f48de295d829c6d9d989bfccbbdfa84b8887",
+      "config": "/root/autodl-tmp/whu25d/completion_v2/train/s44_random_feature/config.json"
+    },
+    {
+      "id": "old_H3D_feature_43",
+      "dataset": "H3D",
+      "variant": "F_pre",
+      "method": "feature",
+      "checkpoint": "/root/autodl-tmp/h3d25d/run_v2/train/s43_feature/best.pt",
+      "sha256": "4c7775802c50aa3992e26520f99938fd06bc444847f947f92ce270ccdbbfa668",
+      "config": "/root/autodl-tmp/h3d25d/run_v2/train/s43_feature/config.json"
+    },
+    {
+      "id": "old_H3D_random_feature_43",
+      "dataset": "H3D",
+      "variant": "F_rnd",
+      "method": "random_feature",
+      "checkpoint": "/root/autodl-tmp/h3d25d/run_v2/train/s43_random_feature/best.pt",
+      "sha256": "cf96e8004cc098d3fe48dabf7fe306c78805a47dfd88159b61fc6586791755cb",
+      "config": "/root/autodl-tmp/h3d25d/run_v2/train/s43_random_feature/config.json"
+    },
+    {
+      "id": "old_H3D_feature_44",
+      "dataset": "H3D",
+      "variant": "F_pre",
+      "method": "feature",
+      "checkpoint": "/root/autodl-tmp/h3d25d/run_v2/train/s44_feature/best.pt",
+      "sha256": "e3bd92986cb49c935563520c4fbeb955cde8fad8763bdd5dc126bb6747b3dd98",
+      "config": "/root/autodl-tmp/h3d25d/run_v2/train/s44_feature/config.json"
+    },
+    {
+      "id": "old_H3D_random_feature_44",
+      "dataset": "H3D",
+      "variant": "F_rnd",
+      "method": "random_feature",
+      "checkpoint": "/root/autodl-tmp/h3d25d/run_v2/train/s44_random_feature/best.pt",
+      "sha256": "d4f3038c2f8fe6ef5ea34721504aeb8c26a91de544730d9b83a2e3a8b7a7e9aa",
+      "config": "/root/autodl-tmp/h3d25d/run_v2/train/s44_random_feature/config.json"
+    },
+    {
+      "id": "train__DALES_sampled_45",
+      "dataset": "DALES",
+      "variant": "O_sampled",
+      "new": {
+        "path": "train/DALES_sampled_45",
+        "epochs": 50,
+        "best_validation_mIoU": 0.6685279505361459,
+        "last_validation_mIoU": 0.6581464162259978,
+        "checkpoints": {
+          "best.pt": {
+            "epoch": 45,
+            "bytes": 15348610,
+            "sha256": "0e49f7847b23949349f9a6cf6c76ccdbec4d06168a00494498fb7c3bc5eac073"
+          },
+          "last.pt": {
+            "epoch": 50,
+            "bytes": 15348610,
+            "sha256": "81795c8277092eb63d4c6d1133e0152aaad7d3cad8b8b99f7103914349bcb74d"
+          }
+        }
+      },
+      "checkpoint": "/root/autodl-tmp/cg_upgrade_20260914_run02/train/DALES_sampled_45/best.pt",
+      "sha256": "0e49f7847b23949349f9a6cf6c76ccdbec4d06168a00494498fb7c3bc5eac073"
+    },
+    {
+      "id": "train__DALES_point_45",
+      "dataset": "DALES",
+      "variant": "O_point",
+      "new": {
+        "path": "train/DALES_point_45",
+        "epochs": 50,
+        "best_validation_mIoU": 0.6685279505361459,
+        "last_validation_mIoU": 0.6581464162259978,
+        "checkpoints": {
+          "best.pt": {
+            "epoch": 45,
+            "bytes": 15348610,
+            "sha256": "899ce93fc641736eba4eacd54bc284701b5a4e88c952136ee73b2736118d8853"
+          },
+          "last.pt": {
+            "epoch": 50,
+            "bytes": 15348610,
+            "sha256": "81795c8277092eb63d4c6d1133e0152aaad7d3cad8b8b99f7103914349bcb74d"
+          }
+        }
+      },
+      "checkpoint": "/root/autodl-tmp/cg_upgrade_20260914_run02/train/DALES_point_45/best.pt",
+      "sha256": "899ce93fc641736eba4eacd54bc284701b5a4e88c952136ee73b2736118d8853"
+    },
+    {
+      "id": "train__DALES_sampled_46",
+      "dataset": "DALES",
+      "variant": "O_sampled",
+      "new": {
+        "path": "train/DALES_sampled_46",
+        "epochs": 50,
+        "best_validation_mIoU": 0.6685279505361459,
+        "last_validation_mIoU": 0.6581464162259978,
+        "checkpoints": {
+          "best.pt": {
+            "epoch": 45,
+            "bytes": 15348610,
+            "sha256": "607c77de7eb150258b8e545022383e81b2601087a65f4116935647fbee0f4d0d"
+          },
+          "last.pt": {
+            "epoch": 50,
+            "bytes": 15348610,
+            "sha256": "81795c8277092eb63d4c6d1133e0152aaad7d3cad8b8b99f7103914349bcb74d"
+          }
+        }
+      },
+      "checkpoint": "/root/autodl-tmp/cg_upgrade_20260914_run02/train/DALES_sampled_46/best.pt",
+      "sha256": "607c77de7eb150258b8e545022383e81b2601087a65f4116935647fbee0f4d0d"
+    },
+    {
+      "id": "train__DALES_point_46",
+      "dataset": "DALES",
+      "variant": "O_point",
+      "new": {
+        "path": "train/DALES_point_46",
+        "epochs": 50,
+        "best_validation_mIoU": 0.6685279505361459,
+        "last_validation_mIoU": 0.6581464162259978,
+        "checkpoints": {
+          "best.pt": {
+            "epoch": 45,
+            "bytes": 15348610,
+            "sha256": "75e5f006ec9c8b79cbfb48d662cc95eba03251300e125df2181436a2919b00ce"
+          },
+          "last.pt": {
+            "epoch": 50,
+            "bytes": 15348610,
+            "sha256": "81795c8277092eb63d4c6d1133e0152aaad7d3cad8b8b99f7103914349bcb74d"
+          }
+        }
+      },
+      "checkpoint": "/root/autodl-tmp/cg_upgrade_20260914_run02/train/DALES_point_46/best.pt",
+      "sha256": "75e5f006ec9c8b79cbfb48d662cc95eba03251300e125df2181436a2919b00ce"
+    }
+  ],
+  "checkpoints": {
+    "old_DALES_s43_base": "8fb9ff01bb44f41359273b08e9121caf064870803eb80f04bc0d6084cac04fce",
+    "old_DALES_s44_base": "2c736ae710230c268bcfb778d7e4958d669ac7c7b7cb096d40dc07bd66dc905e",
+    "old_DALES_observation_43": "d562a4aa990d38152eb75c156801c3f1eba1b97d907ea6190d5bbc64fd1cd8f8",
+    "old_DALES_observation_44": "0363cc1ae36a3eb0aff7ad90003cef0f87312082310d5034edd898faea4699ee",
+    "old_WHU_base_43": "3c2085003540051ab7d3a21eac0f5619fd46014ad6a105827ea47e1adfa7e307",
+    "old_WHU_observation_43": "3957559547c549facf427ed8ff11744cc85207ef1898407cc0d83d1c65153d36",
+    "old_WHU_base_44": "bc1f1868022c0724a6046a8344d7a8d0912dce02f45e121f0c32f2c02853ca06",
+    "old_WHU_observation_44": "2c8cadc972cc6537811248c52a19f4d05681637b8ed95deb0380f6c6b95dcaac",
+    "old_H3D_base_43": "49d1f08da2a58c77146b162a2adf09ba7ef8e0baa83df668f0ceca3b1afb5a78",
+    "old_H3D_observation_43": "981c089cac5c97d6bd7dc313ef07b156befb48cce3f21e981f1cb51057c912bb",
+    "old_H3D_base_44": "2af60bdf5c03162f3ff4def24691b67d1437301defe58fc91cd7b2bd83ee35a4",
+    "old_H3D_observation_44": "80794da01332b8915af8f9a311a939069e2529ce7e56d0c69390329371902191",
+    "train__DALES_sampled_43": "e6998927166e27b18528d9aae7b7898ea919b74d68c8062e250273f34bff307f",
+    "train__DALES_sampled_44": "348dea824ce516225348b91b460b9faf4d33872329d0aaa75e1221ba3c809280",
+    "train__DALES_point_43": "b4634d568bde917d530e0d8c3b6078e2ad94a9299f0719e9decc170257a3461e",
+    "train__DALES_point_44": "037c5613c1b11d093f615ec581a1e906168d625ab708f867860b8dfb015574ed",
+    "external__WHU__train__s43_observation": "d8e5f0f38611d385e733af7e60abc3bd0848c591968df34b21358fac640b04f0",
+    "external__WHU__train__s44_observation": "ec371e89739e81237cffe5f133bcd13f0bc4d3c9b543fe0886bc2c7bee75e608",
+    "external__H3D__train__s43_observation": "041f25ce82ace690e93ff0f7cce0f767b3102350a18273d7cbc0413b83e1b60d",
+    "external__H3D__train__s44_observation": "c87b7ccb315b33c2a51df882fd1988dd4a557b44ac781e8747d27dfa30a156bd",
+    "pointnext_runs__formal_DALES_s43": "459d1ad44e30fe326542ec54129d9278b2f93aa7672b00ed0dcc8048bbe4cb61",
+    "pointnext_runs__formal_DALES_s44": "dea1cbdf90558dead6fb2f308f820cfb3aea8425ce5cede777560b270564c7db",
+    "pointnext_runs__formal_WHU_s43": "857ba80a8681d68e3713911f7c053362eb59bdd4e3df38dbfeb9ed54f3b14a92",
+    "pointnext_runs__formal_WHU_s44": "6c2d4bbd72f05b7588ef2dae232f6dbf6d499b9491564020edee907e61a94361",
+    "pointnext_runs__formal_H3D_s43": "cb757b573924465afff1a38bfda6fd1bed3a746026a1128f5b90f760a86d87d0",
+    "pointnext_runs__formal_H3D_s44": "527cc41aac00634cdf0eeab55c08132838d9df69e500101e37694bb8c80f7356",
+    "old_DALES_s43_feature": "9e32ad8d1812cbc7a585cc9f8d3ea13a09d921203aa7e2707ae46979a2793897",
+    "old_DALES_s44_feature": "236554f9ba5d55f1f426568ac540ce7a65c467707c879233bb335f06ea998d96",
+    "old_DALES_random_feature_43": "fd2126d5cfa98042ec18f6b498fcc71765356761f946b419e4380d1203924496",
+    "old_DALES_random_feature_44": "66df6684d29ba009614f2acb651845a282d819e30833715da708f3c113a3ce7b",
+    "old_WHU_feature_43": "22924f3789d8213bfde55dc85034e2da79c8881dc3ece7c653c64b753f4a06d7",
+    "old_WHU_random_feature_43": "e0fcd835bdbc7bfa437f3480d7441273e445a672be8c32aea50b905a151382c4",
+    "old_WHU_feature_44": "c13d6cab35cc88b955dfe35f1f7ddbf6255ea86d55b2adb58ff8e62610e5a0a9",
+    "old_WHU_random_feature_44": "8a3fd2739e33a9937e9ffd781968f48de295d829c6d9d989bfccbbdfa84b8887",
+    "old_H3D_feature_43": "4c7775802c50aa3992e26520f99938fd06bc444847f947f92ce270ccdbbfa668",
+    "old_H3D_random_feature_43": "cf96e8004cc098d3fe48dabf7fe306c78805a47dfd88159b61fc6586791755cb",
+    "old_H3D_feature_44": "e3bd92986cb49c935563520c4fbeb955cde8fad8763bdd5dc126bb6747b3dd98",
+    "old_H3D_random_feature_44": "d4f3038c2f8fe6ef5ea34721504aeb8c26a91de544730d9b83a2e3a8b7a7e9aa",
+    "train__DALES_sampled_45": "0e49f7847b23949349f9a6cf6c76ccdbec4d06168a00494498fb7c3bc5eac073",
+    "train__DALES_point_45": "899ce93fc641736eba4eacd54bc284701b5a4e88c952136ee73b2736118d8853",
+    "train__DALES_sampled_46": "607c77de7eb150258b8e545022383e81b2601087a65f4116935647fbee0f4d0d",
+    "train__DALES_point_46": "75e5f006ec9c8b79cbfb48d662cc95eba03251300e125df2181436a2919b00ce"
+  },
+  "source_sha256": "e9cadf4e8cf8d737c22a6a8442499e72d2030ec1fbfc4d77f466ec8d644b7254",
+  "evaluation_source_sha256": "495c4209c14b5a7c108d092051de696d8b7da03f1dfd3b36fa72d1d31b86059d",
+  "severity": "medium",
+  "split": "test",
+  "sampling": "seed42 filename-derived permutation; disjoint groups of8192; last group cyclic padding from its own valid points; discard padding predictions",
+  "input_support": "O-sampled constructs maps only from unique records in each group; others retain full-block context as trained",
+  "metrics": "All retained records count exactly once; all classes; not official whole-scene benchmark",
+  "prediction_cache": "uint8 prediction array in original retained-record order; no smoothing, interpolation, propagation or invented points",
+  "validated_adapters": 42,
+  "reference_order": "Base/O first, then new controls, then original F controls"
+}

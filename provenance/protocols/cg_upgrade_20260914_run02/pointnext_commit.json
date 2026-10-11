@@ -1,0 +1,190 @@
+{
+  "sha": "b7ec10fd8b9acdb1c3b18e557f0d3465eb919164",
+  "node_id": "C_kwDOHX-Mc9oAKGI3ZWMxMGZkOGI5YWNkYjFjM2IxOGU1NTdmMGQzNDY1ZWI5MTkxNjQ",
+  "commit": {
+    "author": {
+      "name": "Gordon (Guocheng) Qian",
+      "email": "guocheng.qian@outlook.com",
+      "date": "2026-07-06T06:11:10Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-07-06T06:11:10Z"
+    },
+    "message": "Merge pull request #171 from guochengqian/agent/blackwell-5090-support\n\nSupport RTX 5090 / Blackwell source install; bump to 0.1.2",
+    "tree": {
+      "sha": "0133b49278d093e0f4bb60a475c2d6343b877fb1",
+      "url": "https://api.github.com/repos/guochengqian/PointNeXt/git/trees/0133b49278d093e0f4bb60a475c2d6343b877fb1"
+    },
+    "url": "https://api.github.com/repos/guochengqian/PointNeXt/git/commits/b7ec10fd8b9acdb1c3b18e557f0d3465eb919164",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqS0b+CRC1aQ7uu5UhlAAAwPoQAIaIDT4SukVqkpM/tdbcz0J6\nZhlb0SyIzVziANnc5GVkoIHUoC8A5aJotg+Z0yiyHLY2hH5LN6k3QrDAYsjN9mgl\nm2SvGcs7j6C1zujRKZeSW7AombbbxL6GMp6jp1qvfnMqkgnZAVIgX1eEpZC2kgot\nd8D3Cou+1Ei1RUlWaOtEbhCH3ixh9NKXcH5OUUlMK2pX96452WfSelaA6LKoeH0V\nrCC2p2O/aJqtmd1/7wwcMeEGPyw5sHneNKppmN1lVhCcQm5iuNqbtxZF2gyG55sz\nZTPd6a0GAuPq8OhiYYH06Ch+g6Drj6aC88EN+ilM6k5Y+Sz1Bgj0mk6jPtZwxR/r\nXw/+qip/7Rr47Ytpif940KpRmE9aXKi3jRLM7cHlNh8JJgQxaGcIj7VjWhClypSe\nve6er065oaFwu/cAvCA5MtSMq+jfCS6VDr/15pltCBBLpkRlli+vXBLYfif7UuVA\nCqw+Ws09ELHOUbp1fTp+tVgQOMz7GUbtTixebw9uUKSdhbuX+V0FIKjAyLlYKwHu\no5Ik59QbgEHUvwFpVINOTcakLxJB6sjD8l3dyyhppEbBCc8ZTE7rzZbMUF420CeT\nPXdn+JPwVi/FVnhZFuF/NB+pzlcbEEm/w3NCpg+rCbrvT5mkA+62Ao4TVsRzPDI9\nqP+n5s3E7Ilqh0Q9DB9T\n=Z7np\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 0133b49278d093e0f4bb60a475c2d6343b877fb1\nparent 9f192778e6b1d73fdb0737cfdaa1174816e24002\nparent a8ebfd112169197300fd2b51fa771aa5f1cc105e\nauthor Gordon (Guocheng) Qian <guocheng.qian@outlook.com> 1783318270 -0700\ncommitter GitHub <noreply@github.com> 1783318270 -0700\n\nMerge pull request #171 from guochengqian/agent/blackwell-5090-support\n\nSupport RTX 5090 / Blackwell source install; bump to 0.1.2",
+      "verified_at": "2026-07-06T06:11:11Z"
+    }
+  },
+  "url": "https://api.github.com/repos/guochengqian/PointNeXt/commits/b7ec10fd8b9acdb1c3b18e557f0d3465eb919164",
+  "html_url": "https://github.com/guochengqian/PointNeXt/commit/b7ec10fd8b9acdb1c3b18e557f0d3465eb919164",
+  "comments_url": "https://api.github.com/repos/guochengqian/PointNeXt/commits/b7ec10fd8b9acdb1c3b18e557f0d3465eb919164/comments",
+  "author": {
+    "login": "guochengqian",
+    "id": 48788073,
+    "node_id": "MDQ6VXNlcjQ4Nzg4MDcz",
+    "avatar_url": "https://avatars.githubusercontent.com/u/48788073?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/guochengqian",
+    "html_url": "https://github.com/guochengqian",
+    "followers_url": "https://api.github.com/users/guochengqian/followers",
+    "following_url": "https://api.github.com/users/guochengqian/following{/other_user}",
+    "gists_url": "https://api.github.com/users/guochengqian/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/guochengqian/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/guochengqian/subscriptions",
+    "organizations_url": "https://api.github.com/users/guochengqian/orgs",
+    "repos_url": "https://api.github.com/users/guochengqian/repos",
+    "events_url": "https://api.github.com/users/guochengqian/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/guochengqian/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "9f192778e6b1d73fdb0737cfdaa1174816e24002",
+      "url": "https://api.github.com/repos/guochengqian/PointNeXt/commits/9f192778e6b1d73fdb0737cfdaa1174816e24002",
+      "html_url": "https://github.com/guochengqian/PointNeXt/commit/9f192778e6b1d73fdb0737cfdaa1174816e24002"
+    },
+    {
+      "sha": "a8ebfd112169197300fd2b51fa771aa5f1cc105e",
+      "url": "https://api.github.com/repos/guochengqian/PointNeXt/commits/a8ebfd112169197300fd2b51fa771aa5f1cc105e",
+      "html_url": "https://github.com/guochengqian/PointNeXt/commit/a8ebfd112169197300fd2b51fa771aa5f1cc105e"
+    }
+  ],
+  "stats": {
+    "total": 200,
+    "additions": 131,
+    "deletions": 69
+  },
+  "files": [
+    {
+      "sha": "7482d980709d99bd94fe10dd5cd3e4435a0541e1",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/guochengqian/PointNeXt/blob/b7ec10fd8b9acdb1c3b18e557f0d3465eb919164/README.md",
+      "raw_url": "https://github.com/guochengqian/PointNeXt/raw/b7ec10fd8b9acdb1c3b18e557f0d3465eb919164/README.md",
+      "contents_url": "https://api.github.com/repos/guochengqian/PointNeXt/contents/README.md?ref=b7ec10fd8b9acdb1c3b18e557f0d3465eb919164",
+      "patch": "@@ -90,7 +90,7 @@ source update.sh\n source install.sh\n ```\n \n-If SSH is configured, `git@github.com:guochengqian/PointNeXt.git` also works. CUDA 11.3 was used for the original release. Modify `install.sh` if a different CUDA/PyTorch version is used. See [Install](docs/index.md), [FAQ](docs/faq.md), and [Checkpoints](docs/checkpoints.md) for details.\n+If SSH is configured, `git@github.com:guochengqian/PointNeXt.git` also works. The current `install.sh` targets modern NVIDIA GPUs, including **Blackwell (RTX 50-series / RTX 5090, sm_120)**, via a uv + Python 3.12 environment with PyTorch ≥2.7 built for CUDA 12.8 (`cu128`). Blackwell requires CUDA ≥12.8 and PyTorch ≥2.7; the legacy CUDA 11.3 recipe (kept commented at the bottom of `install.sh`) does not run on an RTX 5090. To compile the CUDA ops you also need a matching CUDA toolkit (`nvcc`) and a host compiler the toolkit supports (CUDA 12.x needs `g++` < 14, e.g. `sudo apt install gcc-13 g++-13`). Modify `install.sh` for a different CUDA/PyTorch version. See [Install](docs/index.md), [FAQ](docs/faq.md), and [Checkpoints](docs/checkpoints.md) for details.\n \n \n "
+    },
+    {
+      "sha": "8dfc42d65fb7f92f2ecb955fb206bdd816325f2f",
+      "filename": "docs/faq.md",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 0,
+      "changes": 14,
+      "blob_url": "https://github.com/guochengqian/PointNeXt/blob/b7ec10fd8b9acdb1c3b18e557f0d3465eb919164/docs%2Ffaq.md",
+      "raw_url": "https://github.com/guochengqian/PointNeXt/raw/b7ec10fd8b9acdb1c3b18e557f0d3465eb919164/docs%2Ffaq.md",
+      "contents_url": "https://api.github.com/repos/guochengqian/PointNeXt/contents/docs%2Ffaq.md?ref=b7ec10fd8b9acdb1c3b18e557f0d3465eb919164",
+      "patch": "@@ -35,6 +35,20 @@ cd openpoints/cpp/pointops && python setup.py install && cd ../../..\n \n `chamfer_dist` and `emd` are optional for classification/segmentation and mainly needed for reconstruction/completion tasks.\n \n+## How do I build the CUDA ops for an RTX 5090 / Blackwell GPU?\n+\n+Blackwell (`sm_120`) needs CUDA ≥12.8 and PyTorch ≥2.7. Use the default `install.sh`\n+(uv + Python 3.12 + `cu128` PyTorch), and before compiling make sure:\n+\n+- `CUDA_HOME`/`PATH` point at a CUDA ≥12.8 toolkit (`nvcc --version`).\n+- The host compiler is one the toolkit accepts — CUDA 12.x requires `g++` < 14, so\n+  install e.g. `sudo apt install gcc-13 g++-13` and `export CC=gcc-13 CXX=g++-13`.\n+- `TORCH_CUDA_ARCH_LIST` includes `12.0` (the default in `install.sh` does).\n+\n+The ops were ported to NumPy 2.x, so they compile against the NumPy that ships with\n+Python 3.12 environments. `torch-scatter` (used by a few optional backbones) may need\n+to compile from source since prebuilt wheels can lag new PyTorch releases.\n+\n ## Can I run PointNeXt on CPU only?\n \n CPU-only import and packaging smoke tests are supported. The main PointNeXt models rely on CUDA custom ops such as ball query / grouping / pointops for practical training and evaluation, so full benchmark reproduction should be run on a CUDA GPU."
+    },
+    {
+      "sha": "179d538eaa9ff26ca4d11db404ce057f140f2530",
+      "filename": "docs/index.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/guochengqian/PointNeXt/blob/b7ec10fd8b9acdb1c3b18e557f0d3465eb919164/docs%2Findex.md",
+      "raw_url": "https://github.com/guochengqian/PointNeXt/raw/b7ec10fd8b9acdb1c3b18e557f0d3465eb919164/docs%2Findex.md",
+      "contents_url": "https://api.github.com/repos/guochengqian/PointNeXt/contents/docs%2Findex.md?ref=b7ec10fd8b9acdb1c3b18e557f0d3465eb919164",
+      "patch": "@@ -61,7 +61,7 @@ If SSH is configured, `git clone --recurse-submodules git@github.com:guochengqia\n \n Note:\n \n-1) The original `install.sh` assumes CUDA 11.3-era PyTorch/CUDA settings. If another CUDA version is used, modify `install.sh` accordingly; check your CUDA version with `nvcc --version` before using the bash file.\n+1) `install.sh` targets modern NVIDIA GPUs, including Blackwell (RTX 50-series / RTX 5090, `sm_120`), using a uv + Python 3.12 environment with PyTorch ≥2.7 built for CUDA 12.8 (`cu128`). Blackwell requires CUDA ≥12.8 and PyTorch ≥2.7. Compiling the CUDA ops needs a CUDA toolkit (`nvcc`, check `nvcc --version`) and a host compiler the toolkit supports (CUDA 12.x needs `g++` < 14 — install e.g. `gcc-13`/`g++-13` and set `CC`/`CXX`). If another CUDA version is used, modify `install.sh` accordingly. The legacy CUDA 11.3 recipe is kept commented at the bottom of `install.sh` for older GPUs and does not run on an RTX 5090.\n \n 2) If the bash file does not work on your machine, read `install.sh` step by step and run the matching PyTorch/CUDA/operator build commands manually.\n "
+    },
+    {
+      "sha": "8b43a02c6f1277021a224d9b34e1867a90c5a80c",
+      "filename": "install.sh",
+      "status": "modified",
+      "additions": 92,
+      "deletions": 49,
+      "changes": 141,
+      "blob_url": "https://github.com/guochengqian/PointNeXt/blob/b7ec10fd8b9acdb1c3b18e557f0d3465eb919164/install.sh",
+      "raw_url": "https://github.com/guochengqian/PointNeXt/raw/b7ec10fd8b9acdb1c3b18e557f0d3465eb919164/install.sh",
+      "contents_url": "https://api.github.com/repos/guochengqian/PointNeXt/contents/install.sh?ref=b7ec10fd8b9acdb1c3b18e557f0d3465eb919164",
+      "patch": "@@ -1,54 +1,97 @@\n #!/usr/bin/env bash\n-# command to install this enviroment: source init.sh\n+# Install the PointNeXt / OpenPoints source environment for training & evaluation.\n+#\n+# Default recipe targets MODERN NVIDIA GPUs, including Blackwell (RTX 50-series /\n+# RTX 5090, compute capability sm_120), using:\n+#   * uv-managed virtual environment, Python 3.12\n+#   * PyTorch >= 2.7 built against CUDA 12.8 (cu128 wheels)\n+#   * the custom CUDA/C++ operators compiled for your GPU architecture\n+#\n+# Blackwell (sm_120) REQUIRES CUDA >= 12.8 and PyTorch >= 2.7. Older PyTorch/CUDA\n+# stacks (e.g. the original CUDA 11.3 recipe, kept commented at the bottom) will\n+# NOT run on an RTX 5090.\n+#\n+# Usage:  source install.sh\n+set -e\n \n-# install miniconda3 if not installed yet.\n-#wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh\n-#bash Miniconda3-latest-Linux-x86_64.sh\n-#source ~/.bashrc\n+# Make sure submodules are present.\n+git submodule update --init --recursive\n \n+# ---------------------------------------------------------------------------\n+# 0. Toolchain\n+# ---------------------------------------------------------------------------\n+# A full CUDA toolkit (nvcc) is needed to compile the operators. Point CUDA_HOME\n+# at it and put nvcc on PATH. Adjust the version to match your machine.\n+export CUDA_HOME=${CUDA_HOME:-/usr/local/cuda}\n+export PATH=${CUDA_HOME}/bin:${PATH}\n \n-# The following 4 lines are only for slurm machines. uncomment if needed.  \n-export TORCH_CUDA_ARCH_LIST=\"6.1;6.2;7.0;7.5;8.0\"   # a100: 8.0; v100: 7.0; 2080ti: 7.5; titan xp: 6.1\n-module purge\n-module load cuda/11.1.1\n-module load gcc/7.5.0\n+# PyTorch's cpp_extension rejects host compilers newer than what the CUDA toolkit\n+# officially supports (e.g. CUDA 12.x wants g++ < 14). If your default gcc is too\n+# new, install an older one (`sudo apt install gcc-13 g++-13`) and select it here.\n+export CC=${CC:-gcc-13}\n+export CXX=${CXX:-g++-13}\n \n-# download openpoints\n-# git submodule add git@github.com:guochengqian/openpoints.git\n-git submodule update --init --recursive\n-git submodule update --remote --merge # update to the latest version\n-\n-# install PyTorch\n-conda deactivate\n-conda env remove --name openpoints\n-conda create -n openpoints -y python=3.7 numpy=1.20 numba\n-conda activate openpoints\n-\n-# please always double check installation for pytorch and torch-scatter from the official documentation\n-conda install -y pytorch=1.10.1 torchvision cudatoolkit=11.3 -c pytorch -c nvidia\n-pip install torch-scatter -f https://data.pyg.org/whl/torch-1.10.1+cu113.html\n-\n-pip install -r requirements.txt\n-\n-# install cpp extensions, the pointnet++ library\n-cd openpoints/cpp/pointnet2_batch\n-python setup.py install\n-cd ../\n-\n-# grid_subsampling library. necessary only if interested in S3DIS_sphere\n-cd subsampling\n-python setup.py build_ext --inplace\n-cd ..\n-\n-\n-# # point transformer library. Necessary only if interested in Point Transformer and Stratified Transformer\n-cd pointops/\n-python setup.py install\n-cd ..\n-\n-# Blow are functions that optional. Necessary only if interested in reconstruction tasks such as completion\n-cd chamfer_dist\n-python setup.py install --user\n-cd ../emd\n-python setup.py install --user\n-cd ../../../\n\\ No newline at end of file\n+# GPU architectures to compile the CUDA kernels for. Include 12.0 for Blackwell.\n+#   Ampere 3090/A100: 8.0/8.6 ; Ada 4090: 8.9 ; Hopper H100: 9.0 ; Blackwell 5090: 12.0\n+export TORCH_CUDA_ARCH_LIST=${TORCH_CUDA_ARCH_LIST:-\"8.0;8.6;8.9;9.0;12.0\"}\n+export MAX_JOBS=${MAX_JOBS:-$(nproc)}\n+\n+# ---------------------------------------------------------------------------\n+# 1. Python environment (uv + Python 3.12)\n+# ---------------------------------------------------------------------------\n+# Install uv first if missing:  curl -LsSf https://astral.sh/uv/install.sh | sh\n+uv venv --python 3.12 .venv\n+source .venv/bin/activate\n+\n+# ---------------------------------------------------------------------------\n+# 2. PyTorch with CUDA 12.8 (Blackwell / sm_120 support)\n+# ---------------------------------------------------------------------------\n+# Check https://pytorch.org for the wheel/index matching your CUDA if different.\n+uv pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128\n+\n+# ---------------------------------------------------------------------------\n+# 3. Python dependencies\n+# ---------------------------------------------------------------------------\n+uv pip install -r requirements.txt\n+\n+# torch-scatter, built against the installed torch. Prebuilt wheels often lag new\n+# torch releases, so compile from source (uses the toolchain configured above).\n+uv pip install --no-build-isolation torch-scatter\n+\n+# ---------------------------------------------------------------------------\n+# 4. Custom CUDA/C++ extensions (the pointnet++ / pointops libraries)\n+# ---------------------------------------------------------------------------\n+# pointnet2 batch ops (ball query / grouping / sampling / interpolation)\n+( cd openpoints/cpp/pointnet2_batch && uv pip install --no-build-isolation -e . )\n+\n+# grid_subsampling (needed only for S3DIS_sphere)\n+( cd openpoints/cpp/subsampling && python setup.py build_ext --inplace )\n+\n+# pointops (Point Transformer / Stratified Transformer)\n+( cd openpoints/cpp/pointops && uv pip install --no-build-isolation -e . )\n+\n+# chamfer_dist + emd (reconstruction / completion tasks only)\n+( cd openpoints/cpp/chamfer_dist && uv pip install --no-build-isolation -e . )\n+( cd openpoints/cpp/emd && uv pip install --no-build-isolation -e . )\n+\n+echo \"\"\n+echo \"Done. Quick check:\"\n+echo \"  python -c \\\"import torch; print(torch.__version__, torch.cuda.get_device_name(0), torch.cuda.get_device_capability(0))\\\"\"\n+\n+\n+# ===========================================================================\n+# LEGACY recipe (CUDA 11.3 / PyTorch 1.10, conda). Kept for reference only.\n+# Does NOT support Blackwell (RTX 5090). Uncomment and adapt for older GPUs.\n+# ===========================================================================\n+# export TORCH_CUDA_ARCH_LIST=\"6.1;6.2;7.0;7.5;8.0\"\n+# conda deactivate\n+# conda env remove --name openpoints\n+# conda create -n openpoints -y python=3.7 numpy=1.20 numba\n+# conda activate openpoints\n+# conda install -y pytorch=1.10.1 torchvision cudatoolkit=11.3 -c pytorch -c nvidia\n+# pip install torch-scatter -f https://data.pyg.org/whl/torch-1.10.1+cu113.html\n+# pip install -r requirements.txt\n+# cd openpoints/cpp/pointnet2_batch && python setup.py install && cd ../\n+# cd subsampling && python setup.py build_ext --inplace && cd ..\n+# cd pointops/ && python setup.py install && cd ..\n+# cd chamfer_dist && python setup.py install --user && cd ../emd && python setup.py install --user && cd ../../../"
+    },
+    {
+      "sha": "db31e0d94ede35bc672ef06d1b6e4073a9c269d5",
+      "filename": "openpoints",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": null,
+      "raw_url": null,
+      "contents_url": "https://api.github.com/repos/guochengqian/PointNeXt/contents/openpoints?ref=b7ec10fd8b9acdb1c3b18e557f0d3465eb919164",
+      "patch": "@@ -1 +1 @@\n-Subproject commit 32d958af876dc19d873e7039e69e1cb35de6a19a\n+Subproject commit db31e0d94ede35bc672ef06d1b6e4073a9c269d5"
+    },
+    {
+      "sha": "71ea6fd1dc1d2ad27f984dcf08eac31bab089187",
+      "filename": "pointnext_official/__init__.py",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/guochengqian/PointNeXt/blob/b7ec10fd8b9acdb1c3b18e557f0d3465eb919164/pointnext_official%2F__init__.py",
+      "raw_url": "https://github.com/guochengqian/PointNeXt/raw/b7ec10fd8b9acdb1c3b18e557f0d3465eb919164/pointnext_official%2F__init__.py",
+      "contents_url": "https://api.github.com/repos/guochengqian/PointNeXt/contents/pointnext_official%2F__init__.py?ref=b7ec10fd8b9acdb1c3b18e557f0d3465eb919164",
+      "patch": "@@ -21,4 +21,4 @@\n     \"verify_sha256\",\n ]\n \n-__version__ = \"0.1.1\"\n+__version__ = \"0.1.2\""
+    },
+    {
+      "sha": "21ec80b2362509bc06123778fa0f0231c765a601",
+      "filename": "pyproject.toml",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4,
+      "blob_url": "https://github.com/guochengqian/PointNeXt/blob/b7ec10fd8b9acdb1c3b18e557f0d3465eb919164/pyproject.toml",
+      "raw_url": "https://github.com/guochengqian/PointNeXt/raw/b7ec10fd8b9acdb1c3b18e557f0d3465eb919164/pyproject.toml",
+      "contents_url": "https://api.github.com/repos/guochengqian/PointNeXt/contents/pyproject.toml?ref=b7ec10fd8b9acdb1c3b18e557f0d3465eb919164",
+      "patch": "@@ -4,7 +4,7 @@ build-backend = \"setuptools.build_meta\"\n \n [project]\n name = \"pointnext_official\"\n-version = \"0.1.1\"\n+version = \"0.1.2\"\n description = \"PointNeXt release helpers, checkpoint download utilities, and metadata for pip-installed OpenPoints/PointNeXt users.\"\n readme = \"README.md\"\n requires-python = \">=3.8\"\n@@ -24,7 +24,7 @@ classifiers = [\n   \"Topic :: Scientific/Engineering :: Artificial Intelligence\",\n ]\n dependencies = [\n-  \"openpoints>=0.1.1\",\n+  \"openpoints>=0.1.2\",\n   \"huggingface_hub>=0.19\",\n   \"PyYAML>=5.4\",\n ]"
+    },
+    {
+      "sha": "a337fc90f1b3cc2de26264504412a5b5f39792fa",
+      "filename": "requirements.txt",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 14,
+      "changes": 33,
+      "blob_url": "https://github.com/guochengqian/PointNeXt/blob/b7ec10fd8b9acdb1c3b18e557f0d3465eb919164/requirements.txt",
+      "raw_url": "https://github.com/guochengqian/PointNeXt/raw/b7ec10fd8b9acdb1c3b18e557f0d3465eb919164/requirements.txt",
+      "contents_url": "https://api.github.com/repos/guochengqian/PointNeXt/contents/requirements.txt?ref=b7ec10fd8b9acdb1c3b18e557f0d3465eb919164",
+      "patch": "@@ -1,20 +1,25 @@\n-scikit-learn==1.0.2\n-pickleshare==0.7.5\n-ninja==1.10.2.3\n+# Python dependencies for source training/evaluation.\n+# Versions relaxed to floors so the stack installs on modern Python (3.10-3.12)\n+# and NumPy 2.x, as required by the CUDA 12.8+/PyTorch 2.7+ build used for\n+# NVIDIA Blackwell GPUs (e.g. RTX 5090, sm_120). Install PyTorch separately\n+# from the correct CUDA index first (see install.sh).\n+scikit-learn>=1.3\n+pickleshare>=0.7.5\n+ninja>=1.11\n gdown\n-easydict==1.9\n-PyYAML==6.0\n-protobuf==3.19.4\n-tensorboard==2.8.0\n-termcolor==1.1.0\n-tqdm==4.62.3\n-multimethod==1.7\n-h5py==3.6.0\n-matplotlib==3.5.1\n+easydict>=1.10\n+PyYAML>=6.0.1\n+protobuf>=4.23\n+tensorboard>=2.14\n+termcolor>=2.0\n+tqdm>=4.62\n+multimethod>=1.9\n+h5py>=3.9\n+matplotlib>=3.7\n wandb\n pyvista\n-setuptools==59.5.0\n-Cython==0.29.28\n+setuptools>=68\n+Cython>=3.0\n pandas\n deepspeed\n shortuuid"
+    }
+  ]
+}

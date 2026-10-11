@@ -1,0 +1,157 @@
+{
+  "created": 1789349647.0679352,
+  "validation_reproduced": 14,
+  "checkpoints": {
+    "train/DALES_sampled_43": "e6998927166e27b18528d9aae7b7898ea919b74d68c8062e250273f34bff307f",
+    "train/DALES_sampled_44": "348dea824ce516225348b91b460b9faf4d33872329d0aaa75e1221ba3c809280",
+    "train/DALES_point_43": "b4634d568bde917d530e0d8c3b6078e2ad94a9299f0719e9decc170257a3461e",
+    "train/DALES_point_44": "037c5613c1b11d093f615ec581a1e906168d625ab708f867860b8dfb015574ed",
+    "external/WHU/train/s43_observation": "d8e5f0f38611d385e733af7e60abc3bd0848c591968df34b21358fac640b04f0",
+    "external/WHU/train/s44_observation": "ec371e89739e81237cffe5f133bcd13f0bc4d3c9b543fe0886bc2c7bee75e608",
+    "external/H3D/train/s43_observation": "041f25ce82ace690e93ff0f7cce0f767b3102350a18273d7cbc0413b83e1b60d",
+    "external/H3D/train/s44_observation": "c87b7ccb315b33c2a51df882fd1988dd4a557b44ac781e8747d27dfa30a156bd",
+    "pointnext_runs/formal_DALES_s43": "459d1ad44e30fe326542ec54129d9278b2f93aa7672b00ed0dcc8048bbe4cb61",
+    "pointnext_runs/formal_DALES_s44": "dea1cbdf90558dead6fb2f308f820cfb3aea8425ce5cede777560b270564c7db",
+    "pointnext_runs/formal_WHU_s43": "857ba80a8681d68e3713911f7c053362eb59bdd4e3df38dbfeb9ed54f3b14a92",
+    "pointnext_runs/formal_WHU_s44": "6c2d4bbd72f05b7588ef2dae232f6dbf6d499b9491564020edee907e61a94361",
+    "pointnext_runs/formal_H3D_s43": "cb757b573924465afff1a38bfda6fd1bed3a746026a1128f5b90f760a86d87d0",
+    "pointnext_runs/formal_H3D_s44": "527cc41aac00634cdf0eeab55c08132838d9df69e500101e37694bb8c80f7356"
+  },
+  "evaluation_source_sha256": "495c4209c14b5a7c108d092051de696d8b7da03f1dfd3b36fa72d1d31b86059d",
+  "sampling_seed": 42,
+  "severities": [
+    "medium",
+    "mild",
+    "severe"
+  ],
+  "precision": "FP32, TF32 disabled",
+  "validation_review": [
+    {
+      "job": "train/DALES_sampled_43",
+      "best_epoch": 45,
+      "epochs": 50,
+      "best_validation": 0.6685279505361459,
+      "last10_mean": 0.6587586096101141,
+      "previous10_mean": 0.648421121761081,
+      "decision": "Retain predeclared training budget and validation-selected checkpoint; budget-constrained comparison, no claim of fully tuned convergence."
+    },
+    {
+      "job": "train/DALES_sampled_44",
+      "best_epoch": 48,
+      "epochs": 50,
+      "best_validation": 0.6732099089952834,
+      "last10_mean": 0.6692154301017798,
+      "previous10_mean": 0.6606313801626815,
+      "decision": "Retain predeclared training budget and validation-selected checkpoint; budget-constrained comparison, no claim of fully tuned convergence."
+    },
+    {
+      "job": "train/DALES_point_43",
+      "best_epoch": 42,
+      "epochs": 50,
+      "best_validation": 0.6611655621230137,
+      "last10_mean": 0.6535526332180738,
+      "previous10_mean": 0.6503985497665427,
+      "decision": "Retain predeclared training budget and validation-selected checkpoint; budget-constrained comparison, no claim of fully tuned convergence."
+    },
+    {
+      "job": "train/DALES_point_44",
+      "best_epoch": 32,
+      "epochs": 50,
+      "best_validation": 0.6668731214530593,
+      "last10_mean": 0.6613762444649126,
+      "previous10_mean": 0.6601604816909045,
+      "decision": "Retain predeclared training budget and validation-selected checkpoint; budget-constrained comparison, no claim of fully tuned convergence."
+    },
+    {
+      "job": "external/WHU/train/s43_observation",
+      "best_epoch": 66,
+      "epochs": 100,
+      "best_validation": 0.45746810243471037,
+      "last10_mean": 0.44545141516532355,
+      "previous10_mean": 0.447161581943721,
+      "decision": "Retain predeclared training budget and validation-selected checkpoint; budget-constrained comparison, no claim of fully tuned convergence."
+    },
+    {
+      "job": "external/WHU/train/s44_observation",
+      "best_epoch": 46,
+      "epochs": 100,
+      "best_validation": 0.4514886827035646,
+      "last10_mean": 0.4413578958308951,
+      "previous10_mean": 0.44234754470697285,
+      "decision": "Retain predeclared training budget and validation-selected checkpoint; budget-constrained comparison, no claim of fully tuned convergence."
+    },
+    {
+      "job": "external/H3D/train/s43_observation",
+      "best_epoch": 75,
+      "epochs": 100,
+      "best_validation": 0.5079213092922498,
+      "last10_mean": 0.5006722978700596,
+      "previous10_mean": 0.4976505517872372,
+      "decision": "Retain predeclared training budget and validation-selected checkpoint; budget-constrained comparison, no claim of fully tuned convergence."
+    },
+    {
+      "job": "external/H3D/train/s44_observation",
+      "best_epoch": 53,
+      "epochs": 100,
+      "best_validation": 0.522767749515966,
+      "last10_mean": 0.5069990915699037,
+      "previous10_mean": 0.5063533533996292,
+      "decision": "Retain predeclared training budget and validation-selected checkpoint; budget-constrained comparison, no claim of fully tuned convergence."
+    },
+    {
+      "job": "pointnext_runs/formal_DALES_s43",
+      "best_epoch": 26,
+      "epochs": 50,
+      "best_validation": 0.5524360291332768,
+      "last10_mean": 0.5003123464455848,
+      "previous10_mean": 0.5038903248933129,
+      "decision": "Retain predeclared training budget and validation-selected checkpoint; budget-constrained comparison, no claim of fully tuned convergence."
+    },
+    {
+      "job": "pointnext_runs/formal_DALES_s44",
+      "best_epoch": 50,
+      "epochs": 50,
+      "best_validation": 0.5142471053075136,
+      "last10_mean": 0.49739546987994004,
+      "previous10_mean": 0.48606157587093746,
+      "decision": "Retain predeclared training budget and validation-selected checkpoint; budget-constrained comparison, no claim of fully tuned convergence."
+    },
+    {
+      "job": "pointnext_runs/formal_WHU_s43",
+      "best_epoch": 74,
+      "epochs": 100,
+      "best_validation": 0.44618091398577575,
+      "last10_mean": 0.42929187129944746,
+      "previous10_mean": 0.4289533812422218,
+      "decision": "Retain predeclared training budget and validation-selected checkpoint; budget-constrained comparison, no claim of fully tuned convergence."
+    },
+    {
+      "job": "pointnext_runs/formal_WHU_s44",
+      "best_epoch": 60,
+      "epochs": 100,
+      "best_validation": 0.44243364926389583,
+      "last10_mean": 0.42115286776425725,
+      "previous10_mean": 0.420090083386087,
+      "decision": "Retain predeclared training budget and validation-selected checkpoint; budget-constrained comparison, no claim of fully tuned convergence."
+    },
+    {
+      "job": "pointnext_runs/formal_H3D_s43",
+      "best_epoch": 29,
+      "epochs": 100,
+      "best_validation": 0.5191570591770024,
+      "last10_mean": 0.48164216549911226,
+      "previous10_mean": 0.47674494799543377,
+      "decision": "Retain predeclared training budget and validation-selected checkpoint; budget-constrained comparison, no claim of fully tuned convergence."
+    },
+    {
+      "job": "pointnext_runs/formal_H3D_s44",
+      "best_epoch": 39,
+      "epochs": 100,
+      "best_validation": 0.5388302354627929,
+      "last10_mean": 0.5061637803201632,
+      "previous10_mean": 0.5078549979732397,
+      "decision": "Retain predeclared training budget and validation-selected checkpoint; budget-constrained comparison, no claim of fully tuned convergence."
+    }
+  ],
+  "test_results_seen": false
+}

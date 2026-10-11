@@ -1,0 +1,17 @@
+{
+  "name": "openpoints",
+  "path": "openpoints",
+  "sha": "db31e0d94ede35bc672ef06d1b6e4073a9c269d5",
+  "size": 0,
+  "url": "https://api.github.com/repos/guochengqian/PointNeXt/contents/openpoints?ref=master",
+  "html_url": "https://github.com/guochengqian/openpoints/tree/db31e0d94ede35bc672ef06d1b6e4073a9c269d5",
+  "git_url": "https://api.github.com/repos/guochengqian/openpoints/git/trees/db31e0d94ede35bc672ef06d1b6e4073a9c269d5",
+  "download_url": null,
+  "type": "submodule",
+  "submodule_git_url": "git@github.com:guochengqian/openpoints.git",
+  "_links": {
+    "self": "https://api.github.com/repos/guochengqian/PointNeXt/contents/openpoints?ref=master",
+    "git": "https://api.github.com/repos/guochengqian/openpoints/git/trees/db31e0d94ede35bc672ef06d1b6e4073a9c269d5",
+    "html": "https://github.com/guochengqian/openpoints/tree/db31e0d94ede35bc672ef06d1b6e4073a9c269d5"
+  }
+}

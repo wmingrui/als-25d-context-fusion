@@ -1,0 +1,20 @@
+{
+  "protocol": "shared_25d_normalization_v3",
+  "fit_dir": "/root/autodl-tmp/h3d25d/run_v1/data/maps_25d_b50_r050",
+  "fit_split": "train",
+  "num_fit_maps": 45,
+  "semantic_labels_used": false,
+  "sampling_seed": 2026,
+  "max_values_per_map": 2048,
+  "quantiles": {
+    "height_low": 1,
+    "height_high": 99,
+    "positive_scale": 99
+  },
+  "z_min": 229.17999267578125,
+  "z_max": 264.00400390625,
+  "rough_scale": 4.56251712799072,
+  "density_scale": 993.0,
+  "gradient_scale": 4.990927238464345,
+  "stats_sha256": "728462f516266a59fbc21fd6f28d6b440f56ef8e1d113e1f85632ffb8fcb36d9"
+}

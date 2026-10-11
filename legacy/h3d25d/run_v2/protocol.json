@@ -1,0 +1,86 @@
+{
+  "dataset": "H3D PC March2018",
+  "root": "/root/autodl-tmp/h3d25d/run_v2",
+  "raw": "/autodl-tmp/H3D/Epoch_March2018/LiDAR",
+  "class_names": [
+    "low_vegetation",
+    "impervious_surface",
+    "vehicle",
+    "urban_furniture",
+    "roof",
+    "facade",
+    "shrub",
+    "tree",
+    "soil_gravel",
+    "vertical_surface",
+    "chimney"
+  ],
+  "valid_class_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "class0_is_valid": true,
+  "unet_checkpoint": "/root/autodl-tmp/h3d25d/run_v2/unet/best.pt",
+  "unet_sha256": "58e2b9770147513909b5be0a637ba2b8ede42e537072bf59887c6623c4a6cf3d",
+  "epochs": 100,
+  "seeds": [
+    43,
+    44
+  ],
+  "methods": [
+    "base",
+    "observation",
+    "feature",
+    "random_feature"
+  ],
+  "train_severity": "medium",
+  "test_severities": [
+    "medium",
+    "mild",
+    "severe"
+  ],
+  "evaluation_sampling_seed": 42,
+  "split": "official train/val/test files, no block mixing",
+  "coordinate_translation": [
+    513800.0,
+    5426400.0,
+    0.0
+  ],
+  "block_size": 50,
+  "resolution": 0.5,
+  "test_ground_truth_alignment": 1.6904300537134986e-06,
+  "input": "XYZ + train-normalized Reflectance; RGB excluded for common architecture",
+  "class_protocol": "All11 valid classes, no ignored other class",
+  "features": "frozen medium U-Net dec1 48 channels; matched random seed42; trainable48to9 projection",
+  "fusion": "input+stage1; no quality modulation or reliability descriptors",
+  "fixed_unseen_degradation": "same medium segmenter and medium U-Net all severities",
+  "evaluation_extent": "8192 sampled points per block; not full-cloud benchmark",
+  "source_hashes": {
+    "pipeline.py": "d8975cfa9c31398623af0d1dc5a61fcf0f99f7b639171ec12ca5c4d0f5ff7a7a",
+    "queue_complete.py": "19132b6f746ac8f75cd3634f04aa6920c2b28bb4bc695872eb14687e75b33da4",
+    "repair_data.py": "68c0ec3d2d7f84e90d05f0c8ce58181ca2643407d3bbad0d18b3488c109910c8",
+    "smoke.py": "82cd1ea726ba269ba7ce3f5787a6544493d3127df7e53cfc5b3a04885ccc2c2e",
+    "train_complete.py": "4ccac3e7a25ef2bae115f26a6dc7f08d4f813d1231427213ac8a9e7fe5c8e4ed"
+  },
+  "revision": "v2 corrected reflectance, independent repeat sampling, matched optimizer updates",
+  "samples_per_epoch": 848,
+  "updates_per_epoch": 53,
+  "total_updates": 5300,
+  "checkpoint_selection": "validation mIoU only; no test-guided selection",
+  "class_weighting": "inverse sqrt expected class frequency under uniform-block sampling; mean normalized and clipped .5..8",
+  "metrics": [
+    "per_class_F1",
+    "mF1",
+    "OA",
+    "mIoU"
+  ]
+}

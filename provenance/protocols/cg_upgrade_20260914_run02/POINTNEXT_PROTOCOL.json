@@ -1,0 +1,22 @@
+{
+  "status": "locked_before_pilots",
+  "pointnext_commit": "b7ec10fd8b9acdb1c3b18e557f0d3465eb919164",
+  "openpoints_commit": "db31e0d94ede35bc672ef06d1b6e4073a9c269d5",
+  "pilot_seed": 46,
+  "pilot_epochs": 10,
+  "candidates": [
+    {"id": "r050_lr001", "radius_metres": 0.5, "lr": 0.001},
+    {"id": "r100_lr001", "radius_metres": 1.0, "lr": 0.001},
+    {"id": "r050_lr0005", "radius_metres": 0.5, "lr": 0.0005}
+  ],
+  "selection": "Maximum best medium-validation mIoU over 10 epochs per dataset; ties retain candidate order. All candidates reported. No test evaluation.",
+  "formal_seeds": [43, 44],
+  "formal_epochs": {"DALES": 50, "WHU": 100, "H3D": 100},
+  "batch": {"DALES": 2, "WHU": 16, "H3D": 16},
+  "precision": "FP32 with TF32 disabled for CUDA operator compatibility; independent-backbone recipe, not precision-matched ablation",
+  "optimizer": "AdamW, weight_decay=0.0001, gradient norm clipping=1; cosine lr to 0.05*initial",
+  "inputs": "8192 records; existing normalized local XYZ/scalar base features; metric local XYZ for ball queries; no RGB, pretrained model or additional augmentations",
+  "validation": "Existing split and seed42; all dataset classes, fixed sampled evaluation",
+  "test_access": false,
+  "post_training_review": "Review validation trajectories and class counts before test; no claim of convergence from a 10-epoch pilot. Any extension is separately documented before test."
+}

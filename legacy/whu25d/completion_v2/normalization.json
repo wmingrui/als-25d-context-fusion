@@ -1,0 +1,20 @@
+{
+  "protocol": "shared_25d_normalization_v3",
+  "fit_dir": "/root/autodl-tmp/whu25d/data/maps_25d_b50_r050",
+  "fit_split": "train",
+  "num_fit_maps": 846,
+  "semantic_labels_used": false,
+  "sampling_seed": 2026,
+  "max_values_per_map": 2048,
+  "quantiles": {
+    "height_low": 1.0,
+    "height_high": 99.0,
+    "positive_scale": 99.0
+  },
+  "z_min": 12.598146438598633,
+  "z_max": 53.55150604248047,
+  "rough_scale": 10.924330692291274,
+  "density_scale": 67.0,
+  "gradient_scale": 14.299999580383307,
+  "stats_sha256": "e023f3ee3298c5b66c0cdd3722109055e821f318473db6a865ebb5339388f521"
+}

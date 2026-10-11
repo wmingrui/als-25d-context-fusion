@@ -1,0 +1,20 @@
+{
+  "protocol": "shared_25d_normalization_v3",
+  "fit_dir": "D:\\ALS\\ALS-DiffBridge\\data\\processed\\dales_objects\\maps_25d_b50_r050",
+  "fit_split": "train",
+  "num_fit_maps": 2400,
+  "semantic_labels_used": false,
+  "sampling_seed": 2026,
+  "max_values_per_map": 2048,
+  "quantiles": {
+    "height_low": 1.0,
+    "height_high": 99.0,
+    "positive_scale": 99.0
+  },
+  "z_min": 1.1299999952316284,
+  "z_max": 51.130001068115234,
+  "rough_scale": 9.672215871810904,
+  "density_scale": 44.0,
+  "gradient_scale": 8.396810779571528,
+  "stats_sha256": "7c85f5d61a316d9d8a576bfff57e9e284634fd3e760fbe15e834c80ed937df75"
+}
